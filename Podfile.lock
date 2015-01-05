@@ -1,0 +1,30 @@
+PODS:
+  - Cartography (0.1.1)
+  - FontAwesomeKit (2.1.8):
+    - FontAwesomeKit/Core (= 2.1.8)
+    - FontAwesomeKit/FontAwesome (= 2.1.8)
+    - FontAwesomeKit/FoundationIcons (= 2.1.8)
+    - FontAwesomeKit/IonIcons (= 2.1.8)
+    - FontAwesomeKit/Zocial (= 2.1.8)
+  - FontAwesomeKit/Core (2.1.8)
+  - FontAwesomeKit/FontAwesome (2.1.8):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/FoundationIcons (2.1.8):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/IonIcons (2.1.8):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/Zocial (2.1.8):
+    - FontAwesomeKit/Core
+  - LatoFont (1.0.0)
+
+DEPENDENCIES:
+  - Cartography (~> 0.1)
+  - FontAwesomeKit (~> 2.1.0)
+  - LatoFont (~> 1.0)
+
+SPEC CHECKSUMS:
+  Cartography: e625895e543d2316c782486c3970b30be4271391
+  FontAwesomeKit: a2edea3111dab107b4cc43b85881b404eb063385
+  LatoFont: 325a86578945d04cce8039deaf163229c63e2258
+
+COCOAPODS: 0.36.0.beta.1
