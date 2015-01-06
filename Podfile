@@ -2,8 +2,8 @@
 platform :ios, '8.1'
 
 target 'Todolist' do
-    pod 'FontAwesomeKit', '~> 2.1.0'
-    pod 'LatoFont', '~> 1.0' 
+    pod 'FontAwesomeKit', :git => "https://github.com/gscalzo/FontAwesomeKit.git"
+    pod 'LatoFont', :git => "https://github.com/gscalzo/LatoFont.git" 
 	pod 'Cartography', '~> 0.1'
 end
 

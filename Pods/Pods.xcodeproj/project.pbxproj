@@ -7,224 +7,224 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01B35E523504596C7F39F781 /* Edge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802F3A2B2AE266A92DFF38E3 /* Edge.swift */; };
-		04E8BDD721903264179B0DBC /* Pods-Todolist-Cartography-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6244A49B7318759F217C22D6 /* Pods-Todolist-Cartography-dummy.m */; };
-		1154FC5E560EAD99110FD2CF /* UIFont+Lato.h in Headers */ = {isa = PBXBuildFile; fileRef = B5148FE3ABB7214F32B7FFC4 /* UIFont+Lato.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		11E4D351B253D78BC396DC09 /* ViewUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585566BDB1CDC7FD4F4911B7 /* ViewUtils.swift */; };
-		17F75C30B8BA16BF3F6C79DC /* Pods-Todolist-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B6CCF0477125ECA51405107 /* Pods-Todolist-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1C75E5AE6433B112F5016B7A /* Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C89813C7123FFEEE4E002F /* Property.swift */; };
-		216D9296ED41F6D2DB98F257 /* Dimension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFEAAD59F7418D2EEBFC60A /* Dimension.swift */; };
-		234138CF10131B4D2BBDB66C /* Pods-Todolist-LatoFont-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E589CE00037CBEEA7B2C69D3 /* Pods-Todolist-LatoFont-dummy.m */; };
-		256D6FA10AF8DC67EEAF12B3 /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A48885AFC851624D772096E /* Lato-Light.ttf */; };
-		29F42AA1F3564E3B997138C8 /* Lato-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4B17579DD399195D92E1177B /* Lato-LightItalic.ttf */; };
-		2E2D9EF2F800818BD26D99C1 /* Lato-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B1167ECB4F515FE8BED95E7 /* Lato-Black.ttf */; };
-		3632B628D7A5E499107FF897 /* FAKZocial.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BAE843E387D9F047E423D1A /* FAKZocial.m */; };
-		3DE54C62D25FD8586EECF3D5 /* Lato-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB4C13BA99855CAFC01263E7 /* Lato-Italic.ttf */; };
-		40DFC90A6157AF46C56DB535 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44F6A139ACCB6245AE43E531 /* Foundation.framework */; };
-		4316904208BEAB8A00556566 /* Pods-Todolist-LatoFont-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C26714E96D12A1367042BA58 /* Pods-Todolist-LatoFont-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		45A0B65A247BC9879FA1D43D /* foundation-icons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 20C0508C8BA91E91A0214104 /* foundation-icons.ttf */; };
-		49290E0BF4FE4A5CEFFD8620 /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = C15C3147576A94BE4C9D466B /* FontAwesome.otf */; };
-		534E91E7481C2B6E1234A4EC /* FAKFoundationIcons.h in Headers */ = {isa = PBXBuildFile; fileRef = DFAF667AFED38D4F03BE8885 /* FAKFoundationIcons.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5B2B10AFA8EC02CEFEB9EDCF /* FAKIcon.h in Headers */ = {isa = PBXBuildFile; fileRef = BB2D77BE8C50985EB7F1ADD1 /* FAKIcon.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5D3426F47E449935C8B60F8D /* zocial-regular-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A13C83B68465A72E075C1EF /* zocial-regular-webfont.ttf */; };
-		68399D63018FDE31801E3A0D /* FAKZocial.h in Headers */ = {isa = PBXBuildFile; fileRef = 64550AFC9FE25F239903AF95 /* FAKZocial.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		74C76A0611CA38FB3A599F5D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44F6A139ACCB6245AE43E531 /* Foundation.framework */; };
-		7955A03D28491934A8126F53 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A0C9C85D624D0154BE4AFE /* View.swift */; };
-		7C09122D27B9FB1A8DD49EFC /* UIFont+Lato.m in Sources */ = {isa = PBXBuildFile; fileRef = A523201C8FC67696A3E4F41E /* UIFont+Lato.m */; };
-		805A0665953A9B029EBB9276 /* LatoFont.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FFD68981531BD48CF888FCE6 /* LatoFont.bundle */; };
-		822A951848870909B7C243FD /* Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA0E572E891D53BDF7435D1 /* Layout.swift */; };
-		89970B2D03B9B8893C40A066 /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4CE730C79BD9B40DAA3A55 /* Context.swift */; };
-		8EEB90A99042B68BF8A283A6 /* Pods-Todolist-FontAwesomeKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 325360BBDAE2DD6C589FAF3C /* Pods-Todolist-FontAwesomeKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9133B6569087BB70A0E8A957 /* FAKIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = 810614B56AA4DAE89590B2D5 /* FAKIcon.m */; };
-		917145C71AB0C39208FD6199 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44F6A139ACCB6245AE43E531 /* Foundation.framework */; };
-		9632A28BC22F1552AE371AAB /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56476B1BA3DF97C7AF02C5D8 /* CoreText.framework */; };
-		9A2B2DCCDEB7090B331764E1 /* Coefficients.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDE18407435DFE3FDBD81E1 /* Coefficients.swift */; };
-		9B8537184602321529439D56 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 036DB2F849087BC307A00773 /* UIKit.framework */; };
-		9BE4C900ECE16D2153C7BBAF /* Priority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89ACE5E0431CA4C624F821F3 /* Priority.swift */; };
-		9DB972096114534641F65170 /* FontAwesomeKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F700E9B38B4A26A0144AE12 /* FontAwesomeKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9F521FFDA57A4553CEBD2CE9 /* Lato-HairlineItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6C5B3C50F0F2DCAC1906CECD /* Lato-HairlineItalic.ttf */; };
-		A620908EF09FD5D675938133 /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3AB30AF2998FF33F9C4FA9 /* Point.swift */; };
-		A8F1717F8F378EAEE5688EA1 /* FAKFontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A6EAC8F43C94997E790D8E /* FAKFontAwesome.m */; };
-		AB46EA1C2ABAC70EB2B07278 /* Pods-Todolist-Cartography-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D4F8B2381515AE1C1435168 /* Pods-Todolist-Cartography-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AFBD32CC2688B00604AD4460 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44F6A139ACCB6245AE43E531 /* Foundation.framework */; };
-		B0BA17187685A605B76C19ED /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3783C73DAEDF57925BB51BF2 /* Expression.swift */; };
-		B12F086978D5A575E5DBDC55 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 036DB2F849087BC307A00773 /* UIKit.framework */; };
-		BDF6D147D7F281284EFB0C80 /* FAKFontAwesome.h in Headers */ = {isa = PBXBuildFile; fileRef = D8F61018DFE23F01098DF8A1 /* FAKFontAwesome.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C0FFA482CEE09FE42768D179 /* Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2195418252BB674DFF0A91C0 /* Size.swift */; };
-		C741D3C19F36EEAA01B4BBC4 /* Pods-Todolist-FontAwesomeKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 540EB448DB87888ECF27AF43 /* Pods-Todolist-FontAwesomeKit-dummy.m */; };
-		DA59BAC8BE3999D697EE4067 /* FAKIonIcons.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7CF3AB2DF7D045058314F3 /* FAKIonIcons.m */; };
-		DBB4805B34D5D036A0253E5B /* Lato-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B292C015498D592521941E8C /* Lato-BoldItalic.ttf */; };
-		DCA9E73C46D503DD2A932358 /* Lato-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1ECC720DB262F863212B72F /* Lato-BlackItalic.ttf */; };
-		DCEB92FF7773E9C12523363C /* FAKIonIcons.h in Headers */ = {isa = PBXBuildFile; fileRef = 48654CDD484BFBC0B95F3027 /* FAKIonIcons.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E08EB9C35FB89FA63C769FEA /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0EF52EFBA322091BC7A6E915 /* Lato-Regular.ttf */; };
-		E0DC3AB96727D71E19C7B321 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5F5AAD2E715F67923A1BD6C9 /* Lato-Bold.ttf */; };
-		E2983F2267F240898458FCAE /* Lato-Hairline.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E70C5EA44C1CD54EBEAFA31 /* Lato-Hairline.ttf */; };
-		E33859D67AA663297A14B227 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56476B1BA3DF97C7AF02C5D8 /* CoreText.framework */; };
-		E3C9942046FC1020CA8AC1B8 /* ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9CC62EABBCF6A17FF5BC180 /* ionicons.ttf */; };
-		E4C552A2033C52742F723122 /* LayoutProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38B7E5F004515E3B6647DC3 /* LayoutProxy.swift */; };
-		EC17CF17F482D643186E37EF /* Compound.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53C50787972AD5FC7259E8D /* Compound.swift */; };
-		ED2D73E5B5121381B13752D5 /* Edges.swift in Sources */ = {isa = PBXBuildFile; fileRef = A412CE14D45C92CD8B2E1B91 /* Edges.swift */; };
-		F2BFA39B8A1E95F8519E1CEA /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163067342E32F4AB4C07B541 /* Constraint.swift */; };
-		F8F552012B674C21C1F66F6B /* FAKFoundationIcons.m in Sources */ = {isa = PBXBuildFile; fileRef = 86A9E26FFA40AB052A927A58 /* FAKFoundationIcons.m */; };
-		F97373520EF8E1B5025E1818 /* Pods-Todolist-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E044493C5BE5CD49D2628DF /* Pods-Todolist-dummy.m */; };
+		05BF0631B93688798B223246 /* Lato-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1ABA68D8C3AF156A844B553D /* Lato-BlackItalic.ttf */; };
+		156559FD72599766D3FB11DD /* Pods-Todolist-FontAwesomeKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E9679318E4BDFB934BE9F4 /* Pods-Todolist-FontAwesomeKit-dummy.m */; };
+		15FA0512F4A7FCAF5F6A3EF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E1A8BCCD5FDB080B1E35D67 /* Foundation.framework */; };
+		1A10317D74FBBEAF50FA5B41 /* Dimension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37015F8C721ECB652029FC4D /* Dimension.swift */; };
+		1DB9C4ED0751308ECF69D466 /* Pods-Todolist-FontAwesomeKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFF5C00E5ACCDEF8E83A496 /* Pods-Todolist-FontAwesomeKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		227B00E6BC9E9E6C3A2B0303 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 709483D85C7EE58B0B60E932 /* Lato-Regular.ttf */; };
+		23E84C96DC7AB29E72DE3DF8 /* LatoFont.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 085D68819A227347B5F05BDF /* LatoFont.bundle */; };
+		23E933FD5EACE4A4EA6DA313 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E5E9715672034F067981C9 /* CoreText.framework */; };
+		23F47C6CA844C26014339A96 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E1A8BCCD5FDB080B1E35D67 /* Foundation.framework */; };
+		2BF1FE99F970A5BFF7867D34 /* ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1E73FAF885FCA09D50F21EFC /* ionicons.ttf */; };
+		2C0FF586D0799A210E6DA885 /* Lato-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E158BD1DCC81A56BC5B26834 /* Lato-LightItalic.ttf */; };
+		2EAA71B3CA822FBD55D5C37A /* Pods-Todolist-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C06FBBDD7587B014893F80 /* Pods-Todolist-dummy.m */; };
+		3814FC92C92AB6673B1A3159 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0FE4D4D90CC97766E59210F /* UIKit.framework */; };
+		3901D10B52E0F049AA978863 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E1A8BCCD5FDB080B1E35D67 /* Foundation.framework */; };
+		3D1D00649C78BB93A9434172 /* Lato-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B9F0A75CC5A5E78D48AE663 /* Lato-Black.ttf */; };
+		40FDFE58E7FADB761D3C63A0 /* FontAwesomeKit.h in Headers */ = {isa = PBXBuildFile; fileRef = BE22A2A2185C7AE4CCBF7E76 /* FontAwesomeKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48BA3535DA16D1F44D4D86BF /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A52F481F27C0C72F1509093 /* Constraint.swift */; };
+		48E2860C13F01CD51FCF31DF /* Lato-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD33D0847C40CB0031627FD6 /* Lato-Italic.ttf */; };
+		4DB39E3DCA18B4CCFEE12ADC /* FAKIcon.h in Headers */ = {isa = PBXBuildFile; fileRef = A3238B2AC1BADE5496C09882 /* FAKIcon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50224711F4E7F665373F4C23 /* FAKIonIcons.m in Sources */ = {isa = PBXBuildFile; fileRef = 03617341668C38D2727325B2 /* FAKIonIcons.m */; };
+		525B7C08ADB59C210883AD56 /* FAKFoundationIcons.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E87CB6B83BC03E3A37C5FB /* FAKFoundationIcons.m */; };
+		5484317913B790E23FA9500A /* ViewUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7E1F67931CD9D50D8A9C71 /* ViewUtils.swift */; };
+		59B5D23698959A87C4050115 /* FAKIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4972B611BF7F65A5A545A7 /* FAKIcon.m */; };
+		5B7E7859EBFE3C095975D2A1 /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52C92CD37CAA20D49AE9C02 /* Context.swift */; };
+		5FD5281BD7C1AD6A4D6AD6A2 /* Pods-Todolist-LatoFont-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A680D0371338F7A572531BE /* Pods-Todolist-LatoFont-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66507791FF46A875DF7B8246 /* FAKFontAwesome.h in Headers */ = {isa = PBXBuildFile; fileRef = AC7840667295C25E60232DB6 /* FAKFontAwesome.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66DCCF397698E5938781D18F /* Edge.swift in Sources */ = {isa = PBXBuildFile; fileRef = B340B89A824AAD0F2CBF4D1E /* Edge.swift */; };
+		6D3B570062ADBB2316C926BB /* Pods-Todolist-LatoFont-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A97783DF34329C82BC1C859 /* Pods-Todolist-LatoFont-dummy.m */; };
+		7D2CEBAB3E65A9713229A154 /* Pods-Todolist-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FD60485A17877E8AB10826AE /* Pods-Todolist-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8143DD84DE2FE022FB2AF124 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E5E9715672034F067981C9 /* CoreText.framework */; };
+		81B557061AF891A3932D8F0F /* Lato-HairlineItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 78E5033C7CC850DE505C18C3 /* Lato-HairlineItalic.ttf */; };
+		831E35E1A83DD90F6BD30C1B /* FAKZocial.h in Headers */ = {isa = PBXBuildFile; fileRef = F39DF92B17C5D9AB6885EA1F /* FAKZocial.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B224192618184C59CBDB932 /* Pods-Todolist-Cartography-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC5883EAB9C369F82BEDA6D /* Pods-Todolist-Cartography-dummy.m */; };
+		9896C5F655CC5694D0924DBF /* UIFont+Lato.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B639D0C3CDE3280CE07CBAD /* UIFont+Lato.m */; };
+		9AC319C32B28E941778D63D4 /* LayoutProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14661883164F24E607D96B41 /* LayoutProxy.swift */; };
+		9C51907A579ADF384F864BFC /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C2D8A01405AC283E9DA14571 /* Lato-Bold.ttf */; };
+		AADDD9D92831DE40BC45F421 /* Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3C33A8F40228B2384367FC /* Layout.swift */; };
+		ADE35C27E1522DF3B09C534B /* Pods-Todolist-Cartography-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DDFA68B5582768BA1CB8C421 /* Pods-Todolist-Cartography-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0292887925F7744FC9ADD0E /* FAKFoundationIcons.h in Headers */ = {isa = PBXBuildFile; fileRef = 1856FA16CEC5E77F9F0725B7 /* FAKFoundationIcons.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B29D03181FDE4AA1DDB4217A /* Compound.swift in Sources */ = {isa = PBXBuildFile; fileRef = A886DA1E5AD74D867AF99728 /* Compound.swift */; };
+		B9D66665B86B6D880DA3600F /* Coefficients.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED9D55E5B815028EC008B32 /* Coefficients.swift */; };
+		BE4E757DA560F2A1EA62EB2E /* Lato-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E267F04A4E9900A619EB4924 /* Lato-BoldItalic.ttf */; };
+		BFDC8D56B22C2E675D126814 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AD442F27E9D64D75325623 /* View.swift */; };
+		C1075E8778AA01B8A51D83D2 /* zocial-regular-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF5C2D679D718C19E9009E9C /* zocial-regular-webfont.ttf */; };
+		C48DF547661069DB06B4BC66 /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599E2426040B952258245A78 /* Point.swift */; };
+		C56E099E2B7FEAC72F4AE04A /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 32C420FF0456CF234516EB35 /* Lato-Light.ttf */; };
+		C853D914C77DEE06EE39850E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0FE4D4D90CC97766E59210F /* UIKit.framework */; };
+		CFF472B7DB164F9E32C67BF9 /* foundation-icons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8EF7EAF0FAE55CBAEBEBFCBA /* foundation-icons.ttf */; };
+		D0DCFC47B3F4355897879388 /* Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3676E7AAD16FB64C7FB1D2 /* Property.swift */; };
+		D1C3E30D9F3ED8A7AF6F8E68 /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0DBEE020B0D8A168216236F5 /* FontAwesome.otf */; };
+		D20330CDD3AF86CA3C4ED792 /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8C419D52C51CB4D165809A /* Expression.swift */; };
+		D52A34030EADB41083F04BBE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E1A8BCCD5FDB080B1E35D67 /* Foundation.framework */; };
+		D5B752DC2A10B30C41B33A1C /* Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256A60B8EC4ACD26C19F4ABD /* Size.swift */; };
+		D6662BA8A285900BB6AFFEEE /* FAKIonIcons.h in Headers */ = {isa = PBXBuildFile; fileRef = 863B90052874E450B1CD34B0 /* FAKIonIcons.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D759687A919DBC8B9D9178C8 /* Edges.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEC07B6E747C9349BA794FA /* Edges.swift */; };
+		E4B9C62EDA1C74ADE4D835EE /* UIFont+Lato.h in Headers */ = {isa = PBXBuildFile; fileRef = E8F9AF9EFE0C4CD973CB4591 /* UIFont+Lato.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7F55BE5A5223CDEF8CEF70B /* Priority.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A2C892C2F8E81456D1B5A1 /* Priority.swift */; };
+		EEB6BEDBFE18F100732CE2CF /* FAKZocial.m in Sources */ = {isa = PBXBuildFile; fileRef = 4908A0E44007A3182AAB8132 /* FAKZocial.m */; };
+		FD194E568455C0CF125D0AB8 /* FAKFontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DACF525E71803F957B2076C /* FAKFontAwesome.m */; };
+		FF578AF2D4DBB74E815C0B27 /* Lato-Hairline.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E59E56BA6FE4177CE6D774D2 /* Lato-Hairline.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6D72492D0DFA39B730A121CA /* PBXContainerItemProxy */ = {
+		2723F058284E79DFF5CF89AF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 750E1A87D6FAC92EA6C8AE0B /* Project object */;
+			containerPortal = DBCAC776A0BACC2A5BCF8D79 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8B362CDD398FC63DFB2E3D92;
+			remoteGlobalIDString = 12ED68B497E27CC6483C43DD;
 			remoteInfo = "Pods-Todolist-LatoFont";
 		};
-		B52F51668A6533111C6FC7C0 /* PBXContainerItemProxy */ = {
+		5ABD23E58A5FF79A0ABEA822 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 750E1A87D6FAC92EA6C8AE0B /* Project object */;
+			containerPortal = DBCAC776A0BACC2A5BCF8D79 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CE96241DB0798719A7D5493E;
-			remoteInfo = "Pods-Todolist-Cartography";
-		};
-		BE779E8711BD4EABDEE4931D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 750E1A87D6FAC92EA6C8AE0B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 506FFB6C37B32E3410D12693;
+			remoteGlobalIDString = EC492B9BAFCDE0A268DC7852;
 			remoteInfo = "Pods-Todolist-LatoFont-LatoFont";
 		};
-		C52579C8A5AB14B2CFCF304B /* PBXContainerItemProxy */ = {
+		A93951C0E49846D85E9C3553 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 750E1A87D6FAC92EA6C8AE0B /* Project object */;
+			containerPortal = DBCAC776A0BACC2A5BCF8D79 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E06DBC7BF9EFAA1FF5B1ED06;
+			remoteGlobalIDString = 6F7F88E07019D1F9D57F4684;
+			remoteInfo = "Pods-Todolist-Cartography";
+		};
+		E116185CF77E629F60D547F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBCAC776A0BACC2A5BCF8D79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B585F7ACBB60D7508BDB54A3;
 			remoteInfo = "Pods-Todolist-FontAwesomeKit";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		036DB2F849087BC307A00773 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		0C9BF0130CD2D1AE103E79FC /* Pods_Todolist.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Todolist.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0EF52EFBA322091BC7A6E915 /* Lato-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Lato-Regular.ttf"; path = "Source/Fonts/Lato-Regular.ttf"; sourceTree = "<group>"; };
-		10CCFD74D0EF2269D1ADF233 /* Pods-Todolist-Cartography-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Todolist-Cartography-Private.xcconfig"; sourceTree = "<group>"; };
-		112CB915B3DD422C33D7A979 /* Pods-Todolist-FontAwesomeKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Todolist-FontAwesomeKit-prefix.pch"; sourceTree = "<group>"; };
-		163067342E32F4AB4C07B541 /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Cartography/Constraint.swift; sourceTree = "<group>"; };
-		1E86FD52DDF8690004CD9819 /* Cartography.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Cartography.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1EEED7DAA91F421317E903D0 /* Pods-Todolist-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Todolist-environment.h"; sourceTree = "<group>"; };
-		204B66DE6EF4F3AEAE90BB9A /* Pods-Todolist-LatoFont.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Todolist-LatoFont.xcconfig"; sourceTree = "<group>"; };
-		20C0508C8BA91E91A0214104 /* foundation-icons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "foundation-icons.ttf"; path = "FontAwesomeKit/foundation-icons.ttf"; sourceTree = "<group>"; };
-		2195418252BB674DFF0A91C0 /* Size.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Size.swift; path = Cartography/Size.swift; sourceTree = "<group>"; };
-		2ADD0FCBC68A56E7EADAA67C /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		2F4CE730C79BD9B40DAA3A55 /* Context.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Context.swift; path = Cartography/Context.swift; sourceTree = "<group>"; };
-		2F55955B13A519EC0EC064C1 /* Pods-Todolist.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Todolist.modulemap"; sourceTree = "<group>"; };
-		325360BBDAE2DD6C589FAF3C /* Pods-Todolist-FontAwesomeKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Todolist-FontAwesomeKit-umbrella.h"; sourceTree = "<group>"; };
-		34C89813C7123FFEEE4E002F /* Property.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Property.swift; path = Cartography/Property.swift; sourceTree = "<group>"; };
-		35A0C9C85D624D0154BE4AFE /* View.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = View.swift; path = Cartography/View.swift; sourceTree = "<group>"; };
-		368172A62E398EE34C985A72 /* LatoFont.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LatoFont.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3783C73DAEDF57925BB51BF2 /* Expression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Expression.swift; path = Cartography/Expression.swift; sourceTree = "<group>"; };
-		3D3D2F5B05C620BFB7DA6F49 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		44F6A139ACCB6245AE43E531 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		48654CDD484BFBC0B95F3027 /* FAKIonIcons.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAKIonIcons.h; path = FontAwesomeKit/FAKIonIcons.h; sourceTree = "<group>"; };
-		4B17579DD399195D92E1177B /* Lato-LightItalic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Lato-LightItalic.ttf"; path = "Source/Fonts/Lato-LightItalic.ttf"; sourceTree = "<group>"; };
-		540EB448DB87888ECF27AF43 /* Pods-Todolist-FontAwesomeKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Todolist-FontAwesomeKit-dummy.m"; sourceTree = "<group>"; };
-		56476B1BA3DF97C7AF02C5D8 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
-		585566BDB1CDC7FD4F4911B7 /* ViewUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewUtils.swift; path = Cartography/ViewUtils.swift; sourceTree = "<group>"; };
-		5BA0E572E891D53BDF7435D1 /* Layout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Layout.swift; path = Cartography/Layout.swift; sourceTree = "<group>"; };
-		5BAE843E387D9F047E423D1A /* FAKZocial.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKZocial.m; path = FontAwesomeKit/FAKZocial.m; sourceTree = "<group>"; };
-		5F5AAD2E715F67923A1BD6C9 /* Lato-Bold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Lato-Bold.ttf"; path = "Source/Fonts/Lato-Bold.ttf"; sourceTree = "<group>"; };
-		6244A49B7318759F217C22D6 /* Pods-Todolist-Cartography-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Todolist-Cartography-dummy.m"; sourceTree = "<group>"; };
-		64550AFC9FE25F239903AF95 /* FAKZocial.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAKZocial.h; path = FontAwesomeKit/FAKZocial.h; sourceTree = "<group>"; };
-		6B6CCF0477125ECA51405107 /* Pods-Todolist-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Todolist-umbrella.h"; sourceTree = "<group>"; };
-		6C5B3C50F0F2DCAC1906CECD /* Lato-HairlineItalic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Lato-HairlineItalic.ttf"; path = "Source/Fonts/Lato-HairlineItalic.ttf"; sourceTree = "<group>"; };
-		6D4F8B2381515AE1C1435168 /* Pods-Todolist-Cartography-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Todolist-Cartography-umbrella.h"; sourceTree = "<group>"; };
-		78E6B378B7BEFBEECCEC8473 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7A13C83B68465A72E075C1EF /* zocial-regular-webfont.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "zocial-regular-webfont.ttf"; path = "FontAwesomeKit/zocial-regular-webfont.ttf"; sourceTree = "<group>"; };
-		7A48885AFC851624D772096E /* Lato-Light.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Lato-Light.ttf"; path = "Source/Fonts/Lato-Light.ttf"; sourceTree = "<group>"; };
-		7E70C5EA44C1CD54EBEAFA31 /* Lato-Hairline.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Lato-Hairline.ttf"; path = "Source/Fonts/Lato-Hairline.ttf"; sourceTree = "<group>"; };
-		802F3A2B2AE266A92DFF38E3 /* Edge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Edge.swift; path = Cartography/Edge.swift; sourceTree = "<group>"; };
-		810614B56AA4DAE89590B2D5 /* FAKIcon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKIcon.m; path = FontAwesomeKit/FAKIcon.m; sourceTree = "<group>"; };
-		851A12967E35648D5C9C108C /* Pods-Todolist-LatoFont.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Todolist-LatoFont.modulemap"; sourceTree = "<group>"; };
-		866F35EA2B78243F175CDDAC /* Pods-Todolist-FontAwesomeKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Todolist-FontAwesomeKit.modulemap"; sourceTree = "<group>"; };
-		86A9E26FFA40AB052A927A58 /* FAKFoundationIcons.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKFoundationIcons.m; path = FontAwesomeKit/FAKFoundationIcons.m; sourceTree = "<group>"; };
-		86B35673BA1866CE6BC4A1A5 /* Pods-Todolist-Cartography-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Todolist-Cartography-prefix.pch"; sourceTree = "<group>"; };
-		89ACE5E0431CA4C624F821F3 /* Priority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Priority.swift; path = Cartography/Priority.swift; sourceTree = "<group>"; };
-		8F700E9B38B4A26A0144AE12 /* FontAwesomeKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FontAwesomeKit.h; path = FontAwesomeKit/FontAwesomeKit.h; sourceTree = "<group>"; };
-		93148532365EC109A71DC67C /* Pods-Todolist-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Todolist-acknowledgements.markdown"; sourceTree = "<group>"; };
-		93E70F97D04F546BDE16EBF8 /* Pods-Todolist-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Todolist-acknowledgements.plist"; sourceTree = "<group>"; };
-		9B1167ECB4F515FE8BED95E7 /* Lato-Black.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Lato-Black.ttf"; path = "Source/Fonts/Lato-Black.ttf"; sourceTree = "<group>"; };
-		9E044493C5BE5CD49D2628DF /* Pods-Todolist-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Todolist-dummy.m"; sourceTree = "<group>"; };
-		9F73811D211E5A5F78015C6B /* Pods-Todolist-Cartography.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Todolist-Cartography.xcconfig"; sourceTree = "<group>"; };
-		9F7CF3AB2DF7D045058314F3 /* FAKIonIcons.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKIonIcons.m; path = FontAwesomeKit/FAKIonIcons.m; sourceTree = "<group>"; };
-		A38B7E5F004515E3B6647DC3 /* LayoutProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutProxy.swift; path = Cartography/LayoutProxy.swift; sourceTree = "<group>"; };
-		A412CE14D45C92CD8B2E1B91 /* Edges.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Edges.swift; path = Cartography/Edges.swift; sourceTree = "<group>"; };
-		A5192E31BBA02E46497B2F51 /* Pods-Todolist-FontAwesomeKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Todolist-FontAwesomeKit.xcconfig"; sourceTree = "<group>"; };
-		A523201C8FC67696A3E4F41E /* UIFont+Lato.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIFont+Lato.m"; path = "Source/UIFont+Lato.m"; sourceTree = "<group>"; };
-		A6352FD1086DA2FED3DF5041 /* Pods-Todolist.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Todolist.debug.xcconfig"; sourceTree = "<group>"; };
-		ABF32F84E7D61572AACB9856 /* Pods-Todolist-LatoFont-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Todolist-LatoFont-prefix.pch"; sourceTree = "<group>"; };
-		AD36C733F4D3DAB0C2086B11 /* Pods-Todolist-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Todolist-resources.sh"; sourceTree = "<group>"; };
-		AD79EEC113CF7D3BC46AEC84 /* Pods-Todolist-LatoFont-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Todolist-LatoFont-Private.xcconfig"; sourceTree = "<group>"; };
-		B1847C50522DA1311F736CBB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B275385E604142C768B25C7A /* Pods-Todolist-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Todolist-frameworks.sh"; sourceTree = "<group>"; };
-		B292C015498D592521941E8C /* Lato-BoldItalic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Lato-BoldItalic.ttf"; path = "Source/Fonts/Lato-BoldItalic.ttf"; sourceTree = "<group>"; };
-		B3372F963338A951D34866A4 /* Pods-Todolist-FontAwesomeKit-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Todolist-FontAwesomeKit-Private.xcconfig"; sourceTree = "<group>"; };
-		B5148FE3ABB7214F32B7FFC4 /* UIFont+Lato.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIFont+Lato.h"; path = "Source/UIFont+Lato.h"; sourceTree = "<group>"; };
-		B9CC62EABBCF6A17FF5BC180 /* ionicons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = ionicons.ttf; path = FontAwesomeKit/ionicons.ttf; sourceTree = "<group>"; };
-		BB2D77BE8C50985EB7F1ADD1 /* FAKIcon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAKIcon.h; path = FontAwesomeKit/FAKIcon.h; sourceTree = "<group>"; };
-		C15C3147576A94BE4C9D466B /* FontAwesome.otf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = FontAwesome.otf; path = FontAwesomeKit/FontAwesome.otf; sourceTree = "<group>"; };
-		C1ECC720DB262F863212B72F /* Lato-BlackItalic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Lato-BlackItalic.ttf"; path = "Source/Fonts/Lato-BlackItalic.ttf"; sourceTree = "<group>"; };
-		C26714E96D12A1367042BA58 /* Pods-Todolist-LatoFont-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Todolist-LatoFont-umbrella.h"; sourceTree = "<group>"; };
-		C371831EB42AB2C6E5546424 /* FontAwesomeKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FontAwesomeKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C4F904F88D68F1240843D478 /* Pods-Todolist.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Todolist.release.xcconfig"; sourceTree = "<group>"; };
-		D457A422AD77AB8CEB435FAB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D8F61018DFE23F01098DF8A1 /* FAKFontAwesome.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAKFontAwesome.h; path = FontAwesomeKit/FAKFontAwesome.h; sourceTree = "<group>"; };
-		DB4C13BA99855CAFC01263E7 /* Lato-Italic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Lato-Italic.ttf"; path = "Source/Fonts/Lato-Italic.ttf"; sourceTree = "<group>"; };
-		DD3AB30AF2998FF33F9C4FA9 /* Point.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Point.swift; path = Cartography/Point.swift; sourceTree = "<group>"; };
-		DFAF667AFED38D4F03BE8885 /* FAKFoundationIcons.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAKFoundationIcons.h; path = FontAwesomeKit/FAKFoundationIcons.h; sourceTree = "<group>"; };
-		E4A6EAC8F43C94997E790D8E /* FAKFontAwesome.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKFontAwesome.m; path = FontAwesomeKit/FAKFontAwesome.m; sourceTree = "<group>"; };
-		E589CE00037CBEEA7B2C69D3 /* Pods-Todolist-LatoFont-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Todolist-LatoFont-dummy.m"; sourceTree = "<group>"; };
-		EEFEAAD59F7418D2EEBFC60A /* Dimension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Dimension.swift; path = Cartography/Dimension.swift; sourceTree = "<group>"; };
-		EFDE18407435DFE3FDBD81E1 /* Coefficients.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Coefficients.swift; path = Cartography/Coefficients.swift; sourceTree = "<group>"; };
-		F166C25A7BA6A1A3C6123F16 /* Pods-Todolist-Cartography.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Todolist-Cartography.modulemap"; sourceTree = "<group>"; };
-		F53C50787972AD5FC7259E8D /* Compound.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Compound.swift; path = Cartography/Compound.swift; sourceTree = "<group>"; };
-		FFD68981531BD48CF888FCE6 /* LatoFont.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LatoFont.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		03481D9E75345C06AB58258F /* Pods-Todolist-LatoFont.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Todolist-LatoFont.xcconfig"; sourceTree = "<group>"; };
+		03617341668C38D2727325B2 /* FAKIonIcons.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKIonIcons.m; path = FontAwesomeKit/FAKIonIcons.m; sourceTree = "<group>"; };
+		085D68819A227347B5F05BDF /* LatoFont.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LatoFont.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		097F4A29F4AD990B701CAC7E /* Pods-Todolist-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Todolist-resources.sh"; sourceTree = "<group>"; };
+		0A52F481F27C0C72F1509093 /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Cartography/Constraint.swift; sourceTree = "<group>"; };
+		0B639D0C3CDE3280CE07CBAD /* UIFont+Lato.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIFont+Lato.m"; path = "Source/UIFont+Lato.m"; sourceTree = "<group>"; };
+		0D3C33A8F40228B2384367FC /* Layout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Layout.swift; path = Cartography/Layout.swift; sourceTree = "<group>"; };
+		0DBEE020B0D8A168216236F5 /* FontAwesome.otf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = FontAwesome.otf; path = FontAwesomeKit/FontAwesome.otf; sourceTree = "<group>"; };
+		14661883164F24E607D96B41 /* LayoutProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutProxy.swift; path = Cartography/LayoutProxy.swift; sourceTree = "<group>"; };
+		171C672B81114CE8BEBD6167 /* Pods-Todolist-FontAwesomeKit-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Todolist-FontAwesomeKit-Private.xcconfig"; sourceTree = "<group>"; };
+		17EBD7C6EB11D8A35C01BF1D /* Pods-Todolist.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Todolist.release.xcconfig"; sourceTree = "<group>"; };
+		1856FA16CEC5E77F9F0725B7 /* FAKFoundationIcons.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAKFoundationIcons.h; path = FontAwesomeKit/FAKFoundationIcons.h; sourceTree = "<group>"; };
+		1A97783DF34329C82BC1C859 /* Pods-Todolist-LatoFont-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Todolist-LatoFont-dummy.m"; sourceTree = "<group>"; };
+		1ABA68D8C3AF156A844B553D /* Lato-BlackItalic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Lato-BlackItalic.ttf"; path = "Source/Fonts/Lato-BlackItalic.ttf"; sourceTree = "<group>"; };
+		1B4426A8B03E926D21BE4CBF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DACF525E71803F957B2076C /* FAKFontAwesome.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKFontAwesome.m; path = FontAwesomeKit/FAKFontAwesome.m; sourceTree = "<group>"; };
+		1E73FAF885FCA09D50F21EFC /* ionicons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = ionicons.ttf; path = FontAwesomeKit/ionicons.ttf; sourceTree = "<group>"; };
+		256A60B8EC4ACD26C19F4ABD /* Size.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Size.swift; path = Cartography/Size.swift; sourceTree = "<group>"; };
+		31C06FBBDD7587B014893F80 /* Pods-Todolist-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Todolist-dummy.m"; sourceTree = "<group>"; };
+		32182F76CD5159366F5EABC7 /* LatoFont.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LatoFont.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		32C420FF0456CF234516EB35 /* Lato-Light.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Lato-Light.ttf"; path = "Source/Fonts/Lato-Light.ttf"; sourceTree = "<group>"; };
+		37015F8C721ECB652029FC4D /* Dimension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Dimension.swift; path = Cartography/Dimension.swift; sourceTree = "<group>"; };
+		3AAF4B03D94D770491B9EA41 /* Pods-Todolist-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Todolist-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3BE1401821EFE0D1C59CA6E3 /* Pods-Todolist.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Todolist.debug.xcconfig"; sourceTree = "<group>"; };
+		3D04A716BB3663B4C693C738 /* Pods-Todolist-FontAwesomeKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Todolist-FontAwesomeKit.xcconfig"; sourceTree = "<group>"; };
+		3E1A8BCCD5FDB080B1E35D67 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3E8C419D52C51CB4D165809A /* Expression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Expression.swift; path = Cartography/Expression.swift; sourceTree = "<group>"; };
+		3F4972B611BF7F65A5A545A7 /* FAKIcon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKIcon.m; path = FontAwesomeKit/FAKIcon.m; sourceTree = "<group>"; };
+		4908A0E44007A3182AAB8132 /* FAKZocial.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKZocial.m; path = FontAwesomeKit/FAKZocial.m; sourceTree = "<group>"; };
+		4D7E1F67931CD9D50D8A9C71 /* ViewUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewUtils.swift; path = Cartography/ViewUtils.swift; sourceTree = "<group>"; };
+		505DFE6B84675B80120B7ED8 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		50E9679318E4BDFB934BE9F4 /* Pods-Todolist-FontAwesomeKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Todolist-FontAwesomeKit-dummy.m"; sourceTree = "<group>"; };
+		599E2426040B952258245A78 /* Point.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Point.swift; path = Cartography/Point.swift; sourceTree = "<group>"; };
+		5E025EB026B60DB59D3AE19C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A680D0371338F7A572531BE /* Pods-Todolist-LatoFont-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Todolist-LatoFont-umbrella.h"; sourceTree = "<group>"; };
+		6B9F0A75CC5A5E78D48AE663 /* Lato-Black.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Lato-Black.ttf"; path = "Source/Fonts/Lato-Black.ttf"; sourceTree = "<group>"; };
+		6BDA4BE7F53A1A6137EC93A3 /* Pods-Todolist-LatoFont.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Todolist-LatoFont.modulemap"; sourceTree = "<group>"; };
+		6EEB38A12F8F9B2F48ABAB9D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		709483D85C7EE58B0B60E932 /* Lato-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Lato-Regular.ttf"; path = "Source/Fonts/Lato-Regular.ttf"; sourceTree = "<group>"; };
+		71DC63732725824C0BD60488 /* Cartography.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Cartography.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		78E5033C7CC850DE505C18C3 /* Lato-HairlineItalic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Lato-HairlineItalic.ttf"; path = "Source/Fonts/Lato-HairlineItalic.ttf"; sourceTree = "<group>"; };
+		79C1A3A13A1C84C9136A7F66 /* Pods-Todolist-Cartography-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Todolist-Cartography-Private.xcconfig"; sourceTree = "<group>"; };
+		7E3601C03B35C90ECBFE9F00 /* Pods-Todolist-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Todolist-acknowledgements.plist"; sourceTree = "<group>"; };
+		7FC5883EAB9C369F82BEDA6D /* Pods-Todolist-Cartography-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Todolist-Cartography-dummy.m"; sourceTree = "<group>"; };
+		82D55E653C598D5F9E32FD68 /* Pods-Todolist.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Todolist.modulemap"; sourceTree = "<group>"; };
+		863B90052874E450B1CD34B0 /* FAKIonIcons.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAKIonIcons.h; path = FontAwesomeKit/FAKIonIcons.h; sourceTree = "<group>"; };
+		8D6AF575BA848761ABE5B562 /* Pods-Todolist-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Todolist-environment.h"; sourceTree = "<group>"; };
+		8EF7EAF0FAE55CBAEBEBFCBA /* foundation-icons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "foundation-icons.ttf"; path = "FontAwesomeKit/foundation-icons.ttf"; sourceTree = "<group>"; };
+		90E87CB6B83BC03E3A37C5FB /* FAKFoundationIcons.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKFoundationIcons.m; path = FontAwesomeKit/FAKFoundationIcons.m; sourceTree = "<group>"; };
+		927BA237C8FBDC91C66DD998 /* FontAwesomeKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FontAwesomeKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3238B2AC1BADE5496C09882 /* FAKIcon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAKIcon.h; path = FontAwesomeKit/FAKIcon.h; sourceTree = "<group>"; };
+		A49C3B84EFF177FDA7370500 /* Pods-Todolist-FontAwesomeKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Todolist-FontAwesomeKit.modulemap"; sourceTree = "<group>"; };
+		A886DA1E5AD74D867AF99728 /* Compound.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Compound.swift; path = Cartography/Compound.swift; sourceTree = "<group>"; };
+		AA617F6FB8B8BDB368D55672 /* Pods-Todolist-LatoFont-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Todolist-LatoFont-Private.xcconfig"; sourceTree = "<group>"; };
+		AB3676E7AAD16FB64C7FB1D2 /* Property.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Property.swift; path = Cartography/Property.swift; sourceTree = "<group>"; };
+		AC7840667295C25E60232DB6 /* FAKFontAwesome.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAKFontAwesome.h; path = FontAwesomeKit/FAKFontAwesome.h; sourceTree = "<group>"; };
+		AD33D0847C40CB0031627FD6 /* Lato-Italic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Lato-Italic.ttf"; path = "Source/Fonts/Lato-Italic.ttf"; sourceTree = "<group>"; };
+		AFEC07B6E747C9349BA794FA /* Edges.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Edges.swift; path = Cartography/Edges.swift; sourceTree = "<group>"; };
+		B340B89A824AAD0F2CBF4D1E /* Edge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Edge.swift; path = Cartography/Edge.swift; sourceTree = "<group>"; };
+		B52C92CD37CAA20D49AE9C02 /* Context.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Context.swift; path = Cartography/Context.swift; sourceTree = "<group>"; };
+		B692DCA3316D15E8F21AAB01 /* Pods-Todolist-LatoFont-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Todolist-LatoFont-prefix.pch"; sourceTree = "<group>"; };
+		BCB41CEA1F0BED084023760C /* Pods-Todolist-Cartography.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Todolist-Cartography.modulemap"; sourceTree = "<group>"; };
+		BE22A2A2185C7AE4CCBF7E76 /* FontAwesomeKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FontAwesomeKit.h; path = FontAwesomeKit/FontAwesomeKit.h; sourceTree = "<group>"; };
+		BF5C2D679D718C19E9009E9C /* zocial-regular-webfont.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "zocial-regular-webfont.ttf"; path = "FontAwesomeKit/zocial-regular-webfont.ttf"; sourceTree = "<group>"; };
+		C0FE4D4D90CC97766E59210F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		C2D8A01405AC283E9DA14571 /* Lato-Bold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Lato-Bold.ttf"; path = "Source/Fonts/Lato-Bold.ttf"; sourceTree = "<group>"; };
+		C5A2C892C2F8E81456D1B5A1 /* Priority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Priority.swift; path = Cartography/Priority.swift; sourceTree = "<group>"; };
+		C7220F93129E408B391F9CA3 /* Pods-Todolist-FontAwesomeKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Todolist-FontAwesomeKit-prefix.pch"; sourceTree = "<group>"; };
+		C7AD442F27E9D64D75325623 /* View.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = View.swift; path = Cartography/View.swift; sourceTree = "<group>"; };
+		D31BD02645ECB1A9D521345A /* Pods_Todolist.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Todolist.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8E4EEEF438CA0855DC31587 /* Pods-Todolist-Cartography-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Todolist-Cartography-prefix.pch"; sourceTree = "<group>"; };
+		DAF5CECC77D52ABAB78BABAA /* Pods-Todolist-Cartography.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Todolist-Cartography.xcconfig"; sourceTree = "<group>"; };
+		DDFA68B5582768BA1CB8C421 /* Pods-Todolist-Cartography-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Todolist-Cartography-umbrella.h"; sourceTree = "<group>"; };
+		DED9D55E5B815028EC008B32 /* Coefficients.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Coefficients.swift; path = Cartography/Coefficients.swift; sourceTree = "<group>"; };
+		E158BD1DCC81A56BC5B26834 /* Lato-LightItalic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Lato-LightItalic.ttf"; path = "Source/Fonts/Lato-LightItalic.ttf"; sourceTree = "<group>"; };
+		E267F04A4E9900A619EB4924 /* Lato-BoldItalic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Lato-BoldItalic.ttf"; path = "Source/Fonts/Lato-BoldItalic.ttf"; sourceTree = "<group>"; };
+		E59E56BA6FE4177CE6D774D2 /* Lato-Hairline.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Lato-Hairline.ttf"; path = "Source/Fonts/Lato-Hairline.ttf"; sourceTree = "<group>"; };
+		E8F9AF9EFE0C4CD973CB4591 /* UIFont+Lato.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIFont+Lato.h"; path = "Source/UIFont+Lato.h"; sourceTree = "<group>"; };
+		EDB71642F903BFD57CB43BD5 /* Pods-Todolist-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Todolist-frameworks.sh"; sourceTree = "<group>"; };
+		F39DF92B17C5D9AB6885EA1F /* FAKZocial.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAKZocial.h; path = FontAwesomeKit/FAKZocial.h; sourceTree = "<group>"; };
+		F3B68CB30352DB1200D84447 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9E5E9715672034F067981C9 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		FCFF5C00E5ACCDEF8E83A496 /* Pods-Todolist-FontAwesomeKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Todolist-FontAwesomeKit-umbrella.h"; sourceTree = "<group>"; };
+		FD60485A17877E8AB10826AE /* Pods-Todolist-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Todolist-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5B4CB1CC6D9CA921DC261FB5 /* Frameworks */ = {
+		0556147FD1EB1EF00087D21F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74C76A0611CA38FB3A599F5D /* Foundation.framework in Frameworks */,
+				8143DD84DE2FE022FB2AF124 /* CoreText.framework in Frameworks */,
+				15FA0512F4A7FCAF5F6A3EF5 /* Foundation.framework in Frameworks */,
+				3814FC92C92AB6673B1A3159 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7FDC5387B33A56B1DCC2C4C0 /* Frameworks */ = {
+		50350D70B6FC1D913F0C32BD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFBD32CC2688B00604AD4460 /* Foundation.framework in Frameworks */,
+				D52A34030EADB41083F04BBE /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		87B0F93AB21C45318EC1FBBD /* Frameworks */ = {
+		7EB2E09C467F4E68B54B2F3D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E33859D67AA663297A14B227 /* CoreText.framework in Frameworks */,
-				917145C71AB0C39208FD6199 /* Foundation.framework in Frameworks */,
-				9B8537184602321529439D56 /* UIKit.framework in Frameworks */,
+				23E933FD5EACE4A4EA6DA313 /* CoreText.framework in Frameworks */,
+				23F47C6CA844C26014339A96 /* Foundation.framework in Frameworks */,
+				C853D914C77DEE06EE39850E /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8CE97B9B66F72FF331062F4F /* Frameworks */ = {
+		C1C999AE3632BECEB242457E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9632A28BC22F1552AE371AAB /* CoreText.framework in Frameworks */,
-				40DFC90A6157AF46C56DB535 /* Foundation.framework in Frameworks */,
-				B12F086978D5A575E5DBDC55 /* UIKit.framework in Frameworks */,
+				3901D10B52E0F049AA978863 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C78CE11568B8694B05DEB08C /* Frameworks */ = {
+		E3CF917D80C2DC01564465C9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -234,384 +234,347 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0BD64823223EBB2933FAA520 /* Pods-Todolist */ = {
+		01ED285612FACF868A1D20CA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3D3D2F5B05C620BFB7DA6F49 /* Info.plist */,
-				2F55955B13A519EC0EC064C1 /* Pods-Todolist.modulemap */,
-				93148532365EC109A71DC67C /* Pods-Todolist-acknowledgements.markdown */,
-				93E70F97D04F546BDE16EBF8 /* Pods-Todolist-acknowledgements.plist */,
-				9E044493C5BE5CD49D2628DF /* Pods-Todolist-dummy.m */,
-				1EEED7DAA91F421317E903D0 /* Pods-Todolist-environment.h */,
-				B275385E604142C768B25C7A /* Pods-Todolist-frameworks.sh */,
-				AD36C733F4D3DAB0C2086B11 /* Pods-Todolist-resources.sh */,
-				6B6CCF0477125ECA51405107 /* Pods-Todolist-umbrella.h */,
-				A6352FD1086DA2FED3DF5041 /* Pods-Todolist.debug.xcconfig */,
-				C4F904F88D68F1240843D478 /* Pods-Todolist.release.xcconfig */,
-			);
-			name = "Pods-Todolist";
-			path = "Target Support Files/Pods-Todolist";
-			sourceTree = "<group>";
-		};
-		21CAB0C4D3A08FC7CBD50227 /* LatoFont */ = {
-			isa = PBXGroup;
-			children = (
-				B5148FE3ABB7214F32B7FFC4 /* UIFont+Lato.h */,
-				A523201C8FC67696A3E4F41E /* UIFont+Lato.m */,
-				A7FA3044E3D2725F55F97BBD /* Resources */,
-				5E5400C4089F7CF518E022DA /* Support Files */,
-			);
-			path = LatoFont;
-			sourceTree = "<group>";
-		};
-		42D13C89184061085B3F2B66 /* IonIcons */ = {
-			isa = PBXGroup;
-			children = (
-				48654CDD484BFBC0B95F3027 /* FAKIonIcons.h */,
-				9F7CF3AB2DF7D045058314F3 /* FAKIonIcons.m */,
-				8F47D60C4D9FA8D3F6BE670F /* Resources */,
-			);
-			name = IonIcons;
-			sourceTree = "<group>";
-		};
-		4F3C5CCBC01DAC153E17B3D7 /* Zocial */ = {
-			isa = PBXGroup;
-			children = (
-				64550AFC9FE25F239903AF95 /* FAKZocial.h */,
-				5BAE843E387D9F047E423D1A /* FAKZocial.m */,
-				79C39960F71B6F8F231153BD /* Resources */,
-			);
-			name = Zocial;
-			sourceTree = "<group>";
-		};
-		5773142569B84BFD0DD9C06B /* Cartography */ = {
-			isa = PBXGroup;
-			children = (
-				EFDE18407435DFE3FDBD81E1 /* Coefficients.swift */,
-				F53C50787972AD5FC7259E8D /* Compound.swift */,
-				163067342E32F4AB4C07B541 /* Constraint.swift */,
-				2F4CE730C79BD9B40DAA3A55 /* Context.swift */,
-				EEFEAAD59F7418D2EEBFC60A /* Dimension.swift */,
-				802F3A2B2AE266A92DFF38E3 /* Edge.swift */,
-				A412CE14D45C92CD8B2E1B91 /* Edges.swift */,
-				3783C73DAEDF57925BB51BF2 /* Expression.swift */,
-				5BA0E572E891D53BDF7435D1 /* Layout.swift */,
-				A38B7E5F004515E3B6647DC3 /* LayoutProxy.swift */,
-				DD3AB30AF2998FF33F9C4FA9 /* Point.swift */,
-				89ACE5E0431CA4C624F821F3 /* Priority.swift */,
-				34C89813C7123FFEEE4E002F /* Property.swift */,
-				2195418252BB674DFF0A91C0 /* Size.swift */,
-				35A0C9C85D624D0154BE4AFE /* View.swift */,
-				585566BDB1CDC7FD4F4911B7 /* ViewUtils.swift */,
-				719E878FFF7E3ACA1174449A /* Support Files */,
-			);
-			path = Cartography;
-			sourceTree = "<group>";
-		};
-		5E5400C4089F7CF518E022DA /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				D457A422AD77AB8CEB435FAB /* Info.plist */,
-				851A12967E35648D5C9C108C /* Pods-Todolist-LatoFont.modulemap */,
-				204B66DE6EF4F3AEAE90BB9A /* Pods-Todolist-LatoFont.xcconfig */,
-				AD79EEC113CF7D3BC46AEC84 /* Pods-Todolist-LatoFont-Private.xcconfig */,
-				E589CE00037CBEEA7B2C69D3 /* Pods-Todolist-LatoFont-dummy.m */,
-				ABF32F84E7D61572AACB9856 /* Pods-Todolist-LatoFont-prefix.pch */,
-				C26714E96D12A1367042BA58 /* Pods-Todolist-LatoFont-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Pods-Todolist-LatoFont";
-			sourceTree = "<group>";
-		};
-		670A32E625CA4C617424ABFB /* FontAwesome */ = {
-			isa = PBXGroup;
-			children = (
-				D8F61018DFE23F01098DF8A1 /* FAKFontAwesome.h */,
-				E4A6EAC8F43C94997E790D8E /* FAKFontAwesome.m */,
-				692311D534AAA4E902CFBDF1 /* Resources */,
-			);
-			name = FontAwesome;
-			sourceTree = "<group>";
-		};
-		692311D534AAA4E902CFBDF1 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				C15C3147576A94BE4C9D466B /* FontAwesome.otf */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		6DFFA24760C65FF44E9BC51B /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				1E86FD52DDF8690004CD9819 /* Cartography.framework */,
-				C371831EB42AB2C6E5546424 /* FontAwesomeKit.framework */,
-				FFD68981531BD48CF888FCE6 /* LatoFont.bundle */,
-				368172A62E398EE34C985A72 /* LatoFont.framework */,
-				0C9BF0130CD2D1AE103E79FC /* Pods_Todolist.framework */,
+				71DC63732725824C0BD60488 /* Cartography.framework */,
+				927BA237C8FBDC91C66DD998 /* FontAwesomeKit.framework */,
+				085D68819A227347B5F05BDF /* LatoFont.bundle */,
+				32182F76CD5159366F5EABC7 /* LatoFont.framework */,
+				D31BD02645ECB1A9D521345A /* Pods_Todolist.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		719E878FFF7E3ACA1174449A /* Support Files */ = {
+		06B2F0C0A260B32888BEDA5B /* LatoFont */ = {
 			isa = PBXGroup;
 			children = (
-				B1847C50522DA1311F736CBB /* Info.plist */,
-				F166C25A7BA6A1A3C6123F16 /* Pods-Todolist-Cartography.modulemap */,
-				9F73811D211E5A5F78015C6B /* Pods-Todolist-Cartography.xcconfig */,
-				10CCFD74D0EF2269D1ADF233 /* Pods-Todolist-Cartography-Private.xcconfig */,
-				6244A49B7318759F217C22D6 /* Pods-Todolist-Cartography-dummy.m */,
-				86B35673BA1866CE6BC4A1A5 /* Pods-Todolist-Cartography-prefix.pch */,
-				6D4F8B2381515AE1C1435168 /* Pods-Todolist-Cartography-umbrella.h */,
+				E8F9AF9EFE0C4CD973CB4591 /* UIFont+Lato.h */,
+				0B639D0C3CDE3280CE07CBAD /* UIFont+Lato.m */,
+				76ED8A79E275360F5F4D10B6 /* Resources */,
+				61B1BFD046947E380A9D289C /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/Pods-Todolist-Cartography";
+			path = LatoFont;
 			sourceTree = "<group>";
 		};
-		79C39960F71B6F8F231153BD /* Resources */ = {
+		0B8BE6FBF8F8CE906343F0CF /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				7A13C83B68465A72E075C1EF /* zocial-regular-webfont.ttf */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		89D7FCAC2E0D6F6E0F33A299 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				20C0508C8BA91E91A0214104 /* foundation-icons.ttf */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		8F47D60C4D9FA8D3F6BE670F /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				B9CC62EABBCF6A17FF5BC180 /* ionicons.ttf */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		96366FFDB3A1E65CF8644211 /* FontAwesomeKit */ = {
-			isa = PBXGroup;
-			children = (
-				8F700E9B38B4A26A0144AE12 /* FontAwesomeKit.h */,
-				F6C2436ACBF0F8FBE3124027 /* Core */,
-				670A32E625CA4C617424ABFB /* FontAwesome */,
-				AE9825C2935651CFA8332184 /* FoundationIcons */,
-				42D13C89184061085B3F2B66 /* IonIcons */,
-				EC7961FED3BF2CF64E66C3B0 /* Support Files */,
-				4F3C5CCBC01DAC153E17B3D7 /* Zocial */,
-			);
-			path = FontAwesomeKit;
-			sourceTree = "<group>";
-		};
-		A7FA3044E3D2725F55F97BBD /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				9B1167ECB4F515FE8BED95E7 /* Lato-Black.ttf */,
-				C1ECC720DB262F863212B72F /* Lato-BlackItalic.ttf */,
-				5F5AAD2E715F67923A1BD6C9 /* Lato-Bold.ttf */,
-				B292C015498D592521941E8C /* Lato-BoldItalic.ttf */,
-				7E70C5EA44C1CD54EBEAFA31 /* Lato-Hairline.ttf */,
-				6C5B3C50F0F2DCAC1906CECD /* Lato-HairlineItalic.ttf */,
-				DB4C13BA99855CAFC01263E7 /* Lato-Italic.ttf */,
-				7A48885AFC851624D772096E /* Lato-Light.ttf */,
-				4B17579DD399195D92E1177B /* Lato-LightItalic.ttf */,
-				0EF52EFBA322091BC7A6E915 /* Lato-Regular.ttf */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		AE9825C2935651CFA8332184 /* FoundationIcons */ = {
-			isa = PBXGroup;
-			children = (
-				DFAF667AFED38D4F03BE8885 /* FAKFoundationIcons.h */,
-				86A9E26FFA40AB052A927A58 /* FAKFoundationIcons.m */,
-				89D7FCAC2E0D6F6E0F33A299 /* Resources */,
-			);
-			name = FoundationIcons;
-			sourceTree = "<group>";
-		};
-		BA8F1A1D05745338A9B184E7 = {
-			isa = PBXGroup;
-			children = (
-				2ADD0FCBC68A56E7EADAA67C /* Podfile */,
-				E57B57675C665A401828D527 /* Frameworks */,
-				BE95C705CDCB07E83A402261 /* Pods */,
-				6DFFA24760C65FF44E9BC51B /* Products */,
-				E404AA4ED1CD5F3B8A96F471 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		BE95C705CDCB07E83A402261 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				5773142569B84BFD0DD9C06B /* Cartography */,
-				96366FFDB3A1E65CF8644211 /* FontAwesomeKit */,
-				21CAB0C4D3A08FC7CBD50227 /* LatoFont */,
+				30AC13879F80A675E2A50404 /* Cartography */,
+				21425447473EE9C34EC3E121 /* FontAwesomeKit */,
+				06B2F0C0A260B32888BEDA5B /* LatoFont */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		E404AA4ED1CD5F3B8A96F471 /* Targets Support Files */ = {
+		152539CAB951679FBA2C90A2 /* Zocial */ = {
 			isa = PBXGroup;
 			children = (
-				0BD64823223EBB2933FAA520 /* Pods-Todolist */,
+				F39DF92B17C5D9AB6885EA1F /* FAKZocial.h */,
+				4908A0E44007A3182AAB8132 /* FAKZocial.m */,
+				6274597631975897E0379C5D /* Resources */,
 			);
-			name = "Targets Support Files";
+			name = Zocial;
 			sourceTree = "<group>";
 		};
-		E57B57675C665A401828D527 /* Frameworks */ = {
+		21425447473EE9C34EC3E121 /* FontAwesomeKit */ = {
 			isa = PBXGroup;
 			children = (
-				EE51A7DBEC19F4B1D57D6EE3 /* iOS */,
+				BE22A2A2185C7AE4CCBF7E76 /* FontAwesomeKit.h */,
+				DF60CC132A5675E6FAAF42A0 /* Core */,
+				C6049D6C94F7839332296387 /* FontAwesome */,
+				6DAAB4E6663612BA7F87E09C /* FoundationIcons */,
+				CE06F97D4550C32AA7841470 /* IonIcons */,
+				4599B69D6B825F2763ED856B /* Support Files */,
+				152539CAB951679FBA2C90A2 /* Zocial */,
 			);
-			name = Frameworks;
+			path = FontAwesomeKit;
 			sourceTree = "<group>";
 		};
-		EC7961FED3BF2CF64E66C3B0 /* Support Files */ = {
+		278FC61636C83645F5F5BA4F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				78E6B378B7BEFBEECCEC8473 /* Info.plist */,
-				866F35EA2B78243F175CDDAC /* Pods-Todolist-FontAwesomeKit.modulemap */,
-				A5192E31BBA02E46497B2F51 /* Pods-Todolist-FontAwesomeKit.xcconfig */,
-				B3372F963338A951D34866A4 /* Pods-Todolist-FontAwesomeKit-Private.xcconfig */,
-				540EB448DB87888ECF27AF43 /* Pods-Todolist-FontAwesomeKit-dummy.m */,
-				112CB915B3DD422C33D7A979 /* Pods-Todolist-FontAwesomeKit-prefix.pch */,
-				325360BBDAE2DD6C589FAF3C /* Pods-Todolist-FontAwesomeKit-umbrella.h */,
+				1E73FAF885FCA09D50F21EFC /* ionicons.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2DD2AF4D27CA1E37465736FA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F9E5E9715672034F067981C9 /* CoreText.framework */,
+				3E1A8BCCD5FDB080B1E35D67 /* Foundation.framework */,
+				C0FE4D4D90CC97766E59210F /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		30AC13879F80A675E2A50404 /* Cartography */ = {
+			isa = PBXGroup;
+			children = (
+				DED9D55E5B815028EC008B32 /* Coefficients.swift */,
+				A886DA1E5AD74D867AF99728 /* Compound.swift */,
+				0A52F481F27C0C72F1509093 /* Constraint.swift */,
+				B52C92CD37CAA20D49AE9C02 /* Context.swift */,
+				37015F8C721ECB652029FC4D /* Dimension.swift */,
+				B340B89A824AAD0F2CBF4D1E /* Edge.swift */,
+				AFEC07B6E747C9349BA794FA /* Edges.swift */,
+				3E8C419D52C51CB4D165809A /* Expression.swift */,
+				0D3C33A8F40228B2384367FC /* Layout.swift */,
+				14661883164F24E607D96B41 /* LayoutProxy.swift */,
+				599E2426040B952258245A78 /* Point.swift */,
+				C5A2C892C2F8E81456D1B5A1 /* Priority.swift */,
+				AB3676E7AAD16FB64C7FB1D2 /* Property.swift */,
+				256A60B8EC4ACD26C19F4ABD /* Size.swift */,
+				C7AD442F27E9D64D75325623 /* View.swift */,
+				4D7E1F67931CD9D50D8A9C71 /* ViewUtils.swift */,
+				67A5E4B2270AB2DAC2329E01 /* Support Files */,
+			);
+			path = Cartography;
+			sourceTree = "<group>";
+		};
+		4599B69D6B825F2763ED856B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E025EB026B60DB59D3AE19C /* Info.plist */,
+				A49C3B84EFF177FDA7370500 /* Pods-Todolist-FontAwesomeKit.modulemap */,
+				3D04A716BB3663B4C693C738 /* Pods-Todolist-FontAwesomeKit.xcconfig */,
+				171C672B81114CE8BEBD6167 /* Pods-Todolist-FontAwesomeKit-Private.xcconfig */,
+				50E9679318E4BDFB934BE9F4 /* Pods-Todolist-FontAwesomeKit-dummy.m */,
+				C7220F93129E408B391F9CA3 /* Pods-Todolist-FontAwesomeKit-prefix.pch */,
+				FCFF5C00E5ACCDEF8E83A496 /* Pods-Todolist-FontAwesomeKit-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Pods-Todolist-FontAwesomeKit";
 			sourceTree = "<group>";
 		};
-		EE51A7DBEC19F4B1D57D6EE3 /* iOS */ = {
+		4C58A5849922A463AA0F6E92 /* Pods-Todolist */ = {
 			isa = PBXGroup;
 			children = (
-				56476B1BA3DF97C7AF02C5D8 /* CoreText.framework */,
-				44F6A139ACCB6245AE43E531 /* Foundation.framework */,
-				036DB2F849087BC307A00773 /* UIKit.framework */,
+				F3B68CB30352DB1200D84447 /* Info.plist */,
+				82D55E653C598D5F9E32FD68 /* Pods-Todolist.modulemap */,
+				3AAF4B03D94D770491B9EA41 /* Pods-Todolist-acknowledgements.markdown */,
+				7E3601C03B35C90ECBFE9F00 /* Pods-Todolist-acknowledgements.plist */,
+				31C06FBBDD7587B014893F80 /* Pods-Todolist-dummy.m */,
+				8D6AF575BA848761ABE5B562 /* Pods-Todolist-environment.h */,
+				EDB71642F903BFD57CB43BD5 /* Pods-Todolist-frameworks.sh */,
+				097F4A29F4AD990B701CAC7E /* Pods-Todolist-resources.sh */,
+				FD60485A17877E8AB10826AE /* Pods-Todolist-umbrella.h */,
+				3BE1401821EFE0D1C59CA6E3 /* Pods-Todolist.debug.xcconfig */,
+				17EBD7C6EB11D8A35C01BF1D /* Pods-Todolist.release.xcconfig */,
 			);
-			name = iOS;
+			name = "Pods-Todolist";
+			path = "Target Support Files/Pods-Todolist";
 			sourceTree = "<group>";
 		};
-		F6C2436ACBF0F8FBE3124027 /* Core */ = {
+		61B1BFD046947E380A9D289C /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				BB2D77BE8C50985EB7F1ADD1 /* FAKIcon.h */,
-				810614B56AA4DAE89590B2D5 /* FAKIcon.m */,
+				1B4426A8B03E926D21BE4CBF /* Info.plist */,
+				6BDA4BE7F53A1A6137EC93A3 /* Pods-Todolist-LatoFont.modulemap */,
+				03481D9E75345C06AB58258F /* Pods-Todolist-LatoFont.xcconfig */,
+				AA617F6FB8B8BDB368D55672 /* Pods-Todolist-LatoFont-Private.xcconfig */,
+				1A97783DF34329C82BC1C859 /* Pods-Todolist-LatoFont-dummy.m */,
+				B692DCA3316D15E8F21AAB01 /* Pods-Todolist-LatoFont-prefix.pch */,
+				6A680D0371338F7A572531BE /* Pods-Todolist-LatoFont-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-Todolist-LatoFont";
+			sourceTree = "<group>";
+		};
+		6274597631975897E0379C5D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BF5C2D679D718C19E9009E9C /* zocial-regular-webfont.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		67A5E4B2270AB2DAC2329E01 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6EEB38A12F8F9B2F48ABAB9D /* Info.plist */,
+				BCB41CEA1F0BED084023760C /* Pods-Todolist-Cartography.modulemap */,
+				DAF5CECC77D52ABAB78BABAA /* Pods-Todolist-Cartography.xcconfig */,
+				79C1A3A13A1C84C9136A7F66 /* Pods-Todolist-Cartography-Private.xcconfig */,
+				7FC5883EAB9C369F82BEDA6D /* Pods-Todolist-Cartography-dummy.m */,
+				D8E4EEEF438CA0855DC31587 /* Pods-Todolist-Cartography-prefix.pch */,
+				DDFA68B5582768BA1CB8C421 /* Pods-Todolist-Cartography-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-Todolist-Cartography";
+			sourceTree = "<group>";
+		};
+		6DAAB4E6663612BA7F87E09C /* FoundationIcons */ = {
+			isa = PBXGroup;
+			children = (
+				1856FA16CEC5E77F9F0725B7 /* FAKFoundationIcons.h */,
+				90E87CB6B83BC03E3A37C5FB /* FAKFoundationIcons.m */,
+				AE71DFB8937A4EC9EE196499 /* Resources */,
+			);
+			name = FoundationIcons;
+			sourceTree = "<group>";
+		};
+		76ED8A79E275360F5F4D10B6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6B9F0A75CC5A5E78D48AE663 /* Lato-Black.ttf */,
+				1ABA68D8C3AF156A844B553D /* Lato-BlackItalic.ttf */,
+				C2D8A01405AC283E9DA14571 /* Lato-Bold.ttf */,
+				E267F04A4E9900A619EB4924 /* Lato-BoldItalic.ttf */,
+				E59E56BA6FE4177CE6D774D2 /* Lato-Hairline.ttf */,
+				78E5033C7CC850DE505C18C3 /* Lato-HairlineItalic.ttf */,
+				AD33D0847C40CB0031627FD6 /* Lato-Italic.ttf */,
+				32C420FF0456CF234516EB35 /* Lato-Light.ttf */,
+				E158BD1DCC81A56BC5B26834 /* Lato-LightItalic.ttf */,
+				709483D85C7EE58B0B60E932 /* Lato-Regular.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7C79E56AD0A1D7889D7419A3 = {
+			isa = PBXGroup;
+			children = (
+				505DFE6B84675B80120B7ED8 /* Podfile */,
+				DBBFDDAFC8FCF5A004C81018 /* Frameworks */,
+				0B8BE6FBF8F8CE906343F0CF /* Pods */,
+				01ED285612FACF868A1D20CA /* Products */,
+				EFC22F2EB06CFCA7B206F735 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		AE71DFB8937A4EC9EE196499 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8EF7EAF0FAE55CBAEBEBFCBA /* foundation-icons.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C165B4F8B956A00B259A6340 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0DBEE020B0D8A168216236F5 /* FontAwesome.otf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C6049D6C94F7839332296387 /* FontAwesome */ = {
+			isa = PBXGroup;
+			children = (
+				AC7840667295C25E60232DB6 /* FAKFontAwesome.h */,
+				1DACF525E71803F957B2076C /* FAKFontAwesome.m */,
+				C165B4F8B956A00B259A6340 /* Resources */,
+			);
+			name = FontAwesome;
+			sourceTree = "<group>";
+		};
+		CE06F97D4550C32AA7841470 /* IonIcons */ = {
+			isa = PBXGroup;
+			children = (
+				863B90052874E450B1CD34B0 /* FAKIonIcons.h */,
+				03617341668C38D2727325B2 /* FAKIonIcons.m */,
+				278FC61636C83645F5F5BA4F /* Resources */,
+			);
+			name = IonIcons;
+			sourceTree = "<group>";
+		};
+		DBBFDDAFC8FCF5A004C81018 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2DD2AF4D27CA1E37465736FA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF60CC132A5675E6FAAF42A0 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A3238B2AC1BADE5496C09882 /* FAKIcon.h */,
+				3F4972B611BF7F65A5A545A7 /* FAKIcon.m */,
 			);
 			name = Core;
+			sourceTree = "<group>";
+		};
+		EFC22F2EB06CFCA7B206F735 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C58A5849922A463AA0F6E92 /* Pods-Todolist */,
+			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0ABEC38B96C2778BFDA09A68 /* Headers */ = {
+		335E11E0C1F27EA625FA0505 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB46EA1C2ABAC70EB2B07278 /* Pods-Todolist-Cartography-umbrella.h in Headers */,
+				7D2CEBAB3E65A9713229A154 /* Pods-Todolist-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1045E93E748BA3D4E2CA80D9 /* Headers */ = {
+		619B67B4A093DE119E7B936B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17F75C30B8BA16BF3F6C79DC /* Pods-Todolist-umbrella.h in Headers */,
+				5FD5281BD7C1AD6A4D6AD6A2 /* Pods-Todolist-LatoFont-umbrella.h in Headers */,
+				E4B9C62EDA1C74ADE4D835EE /* UIFont+Lato.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		300DCF3612B3213EE894CF14 /* Headers */ = {
+		B0F0B1C961B25C75858FB3F4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDF6D147D7F281284EFB0C80 /* FAKFontAwesome.h in Headers */,
-				534E91E7481C2B6E1234A4EC /* FAKFoundationIcons.h in Headers */,
-				5B2B10AFA8EC02CEFEB9EDCF /* FAKIcon.h in Headers */,
-				DCEB92FF7773E9C12523363C /* FAKIonIcons.h in Headers */,
-				68399D63018FDE31801E3A0D /* FAKZocial.h in Headers */,
-				9DB972096114534641F65170 /* FontAwesomeKit.h in Headers */,
-				8EEB90A99042B68BF8A283A6 /* Pods-Todolist-FontAwesomeKit-umbrella.h in Headers */,
+				ADE35C27E1522DF3B09C534B /* Pods-Todolist-Cartography-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A3DE149615B41F19541A2FDE /* Headers */ = {
+		C1C352CADBFA0FCF083CB340 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4316904208BEAB8A00556566 /* Pods-Todolist-LatoFont-umbrella.h in Headers */,
-				1154FC5E560EAD99110FD2CF /* UIFont+Lato.h in Headers */,
+				66507791FF46A875DF7B8246 /* FAKFontAwesome.h in Headers */,
+				B0292887925F7744FC9ADD0E /* FAKFoundationIcons.h in Headers */,
+				4DB39E3DCA18B4CCFEE12ADC /* FAKIcon.h in Headers */,
+				D6662BA8A285900BB6AFFEEE /* FAKIonIcons.h in Headers */,
+				831E35E1A83DD90F6BD30C1B /* FAKZocial.h in Headers */,
+				40FDFE58E7FADB761D3C63A0 /* FontAwesomeKit.h in Headers */,
+				1DB9C4ED0751308ECF69D466 /* Pods-Todolist-FontAwesomeKit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		23AF6C0AD88D38D8AF7DBBF8 /* Pods-Todolist */ = {
+		12ED68B497E27CC6483C43DD /* Pods-Todolist-LatoFont */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6E9F0C0F735994F410B833A8 /* Build configuration list for PBXNativeTarget "Pods-Todolist" */;
+			buildConfigurationList = D48B08485EFFBB956EE213CD /* Build configuration list for PBXNativeTarget "Pods-Todolist-LatoFont" */;
 			buildPhases = (
-				617B17B347649AEE96C08BAB /* Sources */,
-				7FDC5387B33A56B1DCC2C4C0 /* Frameworks */,
-				1045E93E748BA3D4E2CA80D9 /* Headers */,
+				E8A31038CC4BFBCBBE1E5B2D /* Sources */,
+				0556147FD1EB1EF00087D21F /* Frameworks */,
+				4B5EFD2088DF061BC3ABABC5 /* Resources */,
+				619B67B4A093DE119E7B936B /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				47056185BA3D977AC0F702BA /* PBXTargetDependency */,
-				AE70E9FE633C08D63D5E0942 /* PBXTargetDependency */,
-				D7B5ADBA54B46C4FCE9B4067 /* PBXTargetDependency */,
-			);
-			name = "Pods-Todolist";
-			productName = "Pods-Todolist";
-			productReference = 0C9BF0130CD2D1AE103E79FC /* Pods_Todolist.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		506FFB6C37B32E3410D12693 /* Pods-Todolist-LatoFont-LatoFont */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6406E9B12FB063DEB3587D10 /* Build configuration list for PBXNativeTarget "Pods-Todolist-LatoFont-LatoFont" */;
-			buildPhases = (
-				211F12B47EB233F1C2B460FA /* Sources */,
-				C78CE11568B8694B05DEB08C /* Frameworks */,
-				3BF77DD329CECBDC7A9949DC /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-Todolist-LatoFont-LatoFont";
-			productName = "Pods-Todolist-LatoFont-LatoFont";
-			productReference = FFD68981531BD48CF888FCE6 /* LatoFont.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
-		8B362CDD398FC63DFB2E3D92 /* Pods-Todolist-LatoFont */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 512F205300EE42393622BDF0 /* Build configuration list for PBXNativeTarget "Pods-Todolist-LatoFont" */;
-			buildPhases = (
-				DA39DA71506728F8AB5A8FEE /* Sources */,
-				87B0F93AB21C45318EC1FBBD /* Frameworks */,
-				0CD36C4806D1D78829A04489 /* Resources */,
-				A3DE149615B41F19541A2FDE /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8FAF03AF666F44DA92A08B78 /* PBXTargetDependency */,
+				B64124E07E1B3A4A4FE0EBD3 /* PBXTargetDependency */,
 			);
 			name = "Pods-Todolist-LatoFont";
 			productName = "Pods-Todolist-LatoFont";
-			productReference = 368172A62E398EE34C985A72 /* LatoFont.framework */;
+			productReference = 32182F76CD5159366F5EABC7 /* LatoFont.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		CE96241DB0798719A7D5493E /* Pods-Todolist-Cartography */ = {
+		6F7F88E07019D1F9D57F4684 /* Pods-Todolist-Cartography */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7B94E490DCDD2D7414F6BE6C /* Build configuration list for PBXNativeTarget "Pods-Todolist-Cartography" */;
+			buildConfigurationList = 1492A9D8F8A70A3C458457EB /* Build configuration list for PBXNativeTarget "Pods-Todolist-Cartography" */;
 			buildPhases = (
-				D08AF63BCCA00760532185F3 /* Sources */,
-				5B4CB1CC6D9CA921DC261FB5 /* Frameworks */,
-				0ABEC38B96C2778BFDA09A68 /* Headers */,
+				3CB8F5F094E9EC3FE7396373 /* Sources */,
+				C1C999AE3632BECEB242457E /* Frameworks */,
+				B0F0B1C961B25C75858FB3F4 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -619,17 +582,37 @@
 			);
 			name = "Pods-Todolist-Cartography";
 			productName = "Pods-Todolist-Cartography";
-			productReference = 1E86FD52DDF8690004CD9819 /* Cartography.framework */;
+			productReference = 71DC63732725824C0BD60488 /* Cartography.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		E06DBC7BF9EFAA1FF5B1ED06 /* Pods-Todolist-FontAwesomeKit */ = {
+		AC41E0497E8F6F377B705592 /* Pods-Todolist */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0C6B1EC71E378E5BB82FCEA7 /* Build configuration list for PBXNativeTarget "Pods-Todolist-FontAwesomeKit" */;
+			buildConfigurationList = A7A1BF77FAFD1021CF2E79D3 /* Build configuration list for PBXNativeTarget "Pods-Todolist" */;
 			buildPhases = (
-				846A3BFEFD4D635951D5E79C /* Sources */,
-				8CE97B9B66F72FF331062F4F /* Frameworks */,
-				300DCF3612B3213EE894CF14 /* Headers */,
-				7DB0E2C4922451815A986E12 /* Resources */,
+				0AB1BBD12AD49B0E5F050B87 /* Sources */,
+				50350D70B6FC1D913F0C32BD /* Frameworks */,
+				335E11E0C1F27EA625FA0505 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1BBB08D755A8A2B2652A818A /* PBXTargetDependency */,
+				87E7EBEE35109F2BF6E569C8 /* PBXTargetDependency */,
+				77CA0A4DCAD32201C7B76F06 /* PBXTargetDependency */,
+			);
+			name = "Pods-Todolist";
+			productName = "Pods-Todolist";
+			productReference = D31BD02645ECB1A9D521345A /* Pods_Todolist.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B585F7ACBB60D7508BDB54A3 /* Pods-Todolist-FontAwesomeKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9069AFF897607F2531DD5EDB /* Build configuration list for PBXNativeTarget "Pods-Todolist-FontAwesomeKit" */;
+			buildPhases = (
+				349727503B43832D96C9C33A /* Sources */,
+				7EB2E09C467F4E68B54B2F3D /* Frameworks */,
+				C1C352CADBFA0FCF083CB340 /* Headers */,
+				30A086645C15D1656F062D54 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -637,267 +620,189 @@
 			);
 			name = "Pods-Todolist-FontAwesomeKit";
 			productName = "Pods-Todolist-FontAwesomeKit";
-			productReference = C371831EB42AB2C6E5546424 /* FontAwesomeKit.framework */;
+			productReference = 927BA237C8FBDC91C66DD998 /* FontAwesomeKit.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		EC492B9BAFCDE0A268DC7852 /* Pods-Todolist-LatoFont-LatoFont */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 030380FB2C8019C25AD1F952 /* Build configuration list for PBXNativeTarget "Pods-Todolist-LatoFont-LatoFont" */;
+			buildPhases = (
+				D9A64C673BB1F8D17AE7F881 /* Sources */,
+				E3CF917D80C2DC01564465C9 /* Frameworks */,
+				1374EA231CFEA088B1C4C8DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Todolist-LatoFont-LatoFont";
+			productName = "Pods-Todolist-LatoFont-LatoFont";
+			productReference = 085D68819A227347B5F05BDF /* LatoFont.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		750E1A87D6FAC92EA6C8AE0B /* Project object */ = {
+		DBCAC776A0BACC2A5BCF8D79 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0510;
 			};
-			buildConfigurationList = 146217F9F7C8B4AA3DF6B628 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 50950606AC2B75D4A0CF44B5 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = BA8F1A1D05745338A9B184E7;
-			productRefGroup = 6DFFA24760C65FF44E9BC51B /* Products */;
+			mainGroup = 7C79E56AD0A1D7889D7419A3;
+			productRefGroup = 01ED285612FACF868A1D20CA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				23AF6C0AD88D38D8AF7DBBF8 /* Pods-Todolist */,
-				CE96241DB0798719A7D5493E /* Pods-Todolist-Cartography */,
-				E06DBC7BF9EFAA1FF5B1ED06 /* Pods-Todolist-FontAwesomeKit */,
-				8B362CDD398FC63DFB2E3D92 /* Pods-Todolist-LatoFont */,
-				506FFB6C37B32E3410D12693 /* Pods-Todolist-LatoFont-LatoFont */,
+				AC41E0497E8F6F377B705592 /* Pods-Todolist */,
+				6F7F88E07019D1F9D57F4684 /* Pods-Todolist-Cartography */,
+				B585F7ACBB60D7508BDB54A3 /* Pods-Todolist-FontAwesomeKit */,
+				12ED68B497E27CC6483C43DD /* Pods-Todolist-LatoFont */,
+				EC492B9BAFCDE0A268DC7852 /* Pods-Todolist-LatoFont-LatoFont */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0CD36C4806D1D78829A04489 /* Resources */ = {
+		1374EA231CFEA088B1C4C8DD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				805A0665953A9B029EBB9276 /* LatoFont.bundle in Resources */,
+				3D1D00649C78BB93A9434172 /* Lato-Black.ttf in Resources */,
+				05BF0631B93688798B223246 /* Lato-BlackItalic.ttf in Resources */,
+				9C51907A579ADF384F864BFC /* Lato-Bold.ttf in Resources */,
+				BE4E757DA560F2A1EA62EB2E /* Lato-BoldItalic.ttf in Resources */,
+				FF578AF2D4DBB74E815C0B27 /* Lato-Hairline.ttf in Resources */,
+				81B557061AF891A3932D8F0F /* Lato-HairlineItalic.ttf in Resources */,
+				48E2860C13F01CD51FCF31DF /* Lato-Italic.ttf in Resources */,
+				C56E099E2B7FEAC72F4AE04A /* Lato-Light.ttf in Resources */,
+				2C0FF586D0799A210E6DA885 /* Lato-LightItalic.ttf in Resources */,
+				227B00E6BC9E9E6C3A2B0303 /* Lato-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3BF77DD329CECBDC7A9949DC /* Resources */ = {
+		30A086645C15D1656F062D54 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E2D9EF2F800818BD26D99C1 /* Lato-Black.ttf in Resources */,
-				DCA9E73C46D503DD2A932358 /* Lato-BlackItalic.ttf in Resources */,
-				E0DC3AB96727D71E19C7B321 /* Lato-Bold.ttf in Resources */,
-				DBB4805B34D5D036A0253E5B /* Lato-BoldItalic.ttf in Resources */,
-				E2983F2267F240898458FCAE /* Lato-Hairline.ttf in Resources */,
-				9F521FFDA57A4553CEBD2CE9 /* Lato-HairlineItalic.ttf in Resources */,
-				3DE54C62D25FD8586EECF3D5 /* Lato-Italic.ttf in Resources */,
-				256D6FA10AF8DC67EEAF12B3 /* Lato-Light.ttf in Resources */,
-				29F42AA1F3564E3B997138C8 /* Lato-LightItalic.ttf in Resources */,
-				E08EB9C35FB89FA63C769FEA /* Lato-Regular.ttf in Resources */,
+				D1C3E30D9F3ED8A7AF6F8E68 /* FontAwesome.otf in Resources */,
+				CFF472B7DB164F9E32C67BF9 /* foundation-icons.ttf in Resources */,
+				2BF1FE99F970A5BFF7867D34 /* ionicons.ttf in Resources */,
+				C1075E8778AA01B8A51D83D2 /* zocial-regular-webfont.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7DB0E2C4922451815A986E12 /* Resources */ = {
+		4B5EFD2088DF061BC3ABABC5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49290E0BF4FE4A5CEFFD8620 /* FontAwesome.otf in Resources */,
-				45A0B65A247BC9879FA1D43D /* foundation-icons.ttf in Resources */,
-				E3C9942046FC1020CA8AC1B8 /* ionicons.ttf in Resources */,
-				5D3426F47E449935C8B60F8D /* zocial-regular-webfont.ttf in Resources */,
+				23E84C96DC7AB29E72DE3DF8 /* LatoFont.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		211F12B47EB233F1C2B460FA /* Sources */ = {
+		0AB1BBD12AD49B0E5F050B87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EAA71B3CA822FBD55D5C37A /* Pods-Todolist-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		349727503B43832D96C9C33A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD194E568455C0CF125D0AB8 /* FAKFontAwesome.m in Sources */,
+				525B7C08ADB59C210883AD56 /* FAKFoundationIcons.m in Sources */,
+				59B5D23698959A87C4050115 /* FAKIcon.m in Sources */,
+				50224711F4E7F665373F4C23 /* FAKIonIcons.m in Sources */,
+				EEB6BEDBFE18F100732CE2CF /* FAKZocial.m in Sources */,
+				156559FD72599766D3FB11DD /* Pods-Todolist-FontAwesomeKit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CB8F5F094E9EC3FE7396373 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9D66665B86B6D880DA3600F /* Coefficients.swift in Sources */,
+				B29D03181FDE4AA1DDB4217A /* Compound.swift in Sources */,
+				48BA3535DA16D1F44D4D86BF /* Constraint.swift in Sources */,
+				5B7E7859EBFE3C095975D2A1 /* Context.swift in Sources */,
+				1A10317D74FBBEAF50FA5B41 /* Dimension.swift in Sources */,
+				66DCCF397698E5938781D18F /* Edge.swift in Sources */,
+				D759687A919DBC8B9D9178C8 /* Edges.swift in Sources */,
+				D20330CDD3AF86CA3C4ED792 /* Expression.swift in Sources */,
+				AADDD9D92831DE40BC45F421 /* Layout.swift in Sources */,
+				9AC319C32B28E941778D63D4 /* LayoutProxy.swift in Sources */,
+				8B224192618184C59CBDB932 /* Pods-Todolist-Cartography-dummy.m in Sources */,
+				C48DF547661069DB06B4BC66 /* Point.swift in Sources */,
+				E7F55BE5A5223CDEF8CEF70B /* Priority.swift in Sources */,
+				D0DCFC47B3F4355897879388 /* Property.swift in Sources */,
+				D5B752DC2A10B30C41B33A1C /* Size.swift in Sources */,
+				BFDC8D56B22C2E675D126814 /* View.swift in Sources */,
+				5484317913B790E23FA9500A /* ViewUtils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9A64C673BB1F8D17AE7F881 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		617B17B347649AEE96C08BAB /* Sources */ = {
+		E8A31038CC4BFBCBBE1E5B2D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F97373520EF8E1B5025E1818 /* Pods-Todolist-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		846A3BFEFD4D635951D5E79C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A8F1717F8F378EAEE5688EA1 /* FAKFontAwesome.m in Sources */,
-				F8F552012B674C21C1F66F6B /* FAKFoundationIcons.m in Sources */,
-				9133B6569087BB70A0E8A957 /* FAKIcon.m in Sources */,
-				DA59BAC8BE3999D697EE4067 /* FAKIonIcons.m in Sources */,
-				3632B628D7A5E499107FF897 /* FAKZocial.m in Sources */,
-				C741D3C19F36EEAA01B4BBC4 /* Pods-Todolist-FontAwesomeKit-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D08AF63BCCA00760532185F3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9A2B2DCCDEB7090B331764E1 /* Coefficients.swift in Sources */,
-				EC17CF17F482D643186E37EF /* Compound.swift in Sources */,
-				F2BFA39B8A1E95F8519E1CEA /* Constraint.swift in Sources */,
-				89970B2D03B9B8893C40A066 /* Context.swift in Sources */,
-				216D9296ED41F6D2DB98F257 /* Dimension.swift in Sources */,
-				01B35E523504596C7F39F781 /* Edge.swift in Sources */,
-				ED2D73E5B5121381B13752D5 /* Edges.swift in Sources */,
-				B0BA17187685A605B76C19ED /* Expression.swift in Sources */,
-				822A951848870909B7C243FD /* Layout.swift in Sources */,
-				E4C552A2033C52742F723122 /* LayoutProxy.swift in Sources */,
-				04E8BDD721903264179B0DBC /* Pods-Todolist-Cartography-dummy.m in Sources */,
-				A620908EF09FD5D675938133 /* Point.swift in Sources */,
-				9BE4C900ECE16D2153C7BBAF /* Priority.swift in Sources */,
-				1C75E5AE6433B112F5016B7A /* Property.swift in Sources */,
-				C0FFA482CEE09FE42768D179 /* Size.swift in Sources */,
-				7955A03D28491934A8126F53 /* View.swift in Sources */,
-				11E4D351B253D78BC396DC09 /* ViewUtils.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DA39DA71506728F8AB5A8FEE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				234138CF10131B4D2BBDB66C /* Pods-Todolist-LatoFont-dummy.m in Sources */,
-				7C09122D27B9FB1A8DD49EFC /* UIFont+Lato.m in Sources */,
+				6D3B570062ADBB2316C926BB /* Pods-Todolist-LatoFont-dummy.m in Sources */,
+				9896C5F655CC5694D0924DBF /* UIFont+Lato.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		47056185BA3D977AC0F702BA /* PBXTargetDependency */ = {
+		1BBB08D755A8A2B2652A818A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-Todolist-Cartography";
-			target = CE96241DB0798719A7D5493E /* Pods-Todolist-Cartography */;
-			targetProxy = B52F51668A6533111C6FC7C0 /* PBXContainerItemProxy */;
+			target = 6F7F88E07019D1F9D57F4684 /* Pods-Todolist-Cartography */;
+			targetProxy = A93951C0E49846D85E9C3553 /* PBXContainerItemProxy */;
 		};
-		8FAF03AF666F44DA92A08B78 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-Todolist-LatoFont-LatoFont";
-			target = 506FFB6C37B32E3410D12693 /* Pods-Todolist-LatoFont-LatoFont */;
-			targetProxy = BE779E8711BD4EABDEE4931D /* PBXContainerItemProxy */;
-		};
-		AE70E9FE633C08D63D5E0942 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-Todolist-FontAwesomeKit";
-			target = E06DBC7BF9EFAA1FF5B1ED06 /* Pods-Todolist-FontAwesomeKit */;
-			targetProxy = C52579C8A5AB14B2CFCF304B /* PBXContainerItemProxy */;
-		};
-		D7B5ADBA54B46C4FCE9B4067 /* PBXTargetDependency */ = {
+		77CA0A4DCAD32201C7B76F06 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-Todolist-LatoFont";
-			target = 8B362CDD398FC63DFB2E3D92 /* Pods-Todolist-LatoFont */;
-			targetProxy = 6D72492D0DFA39B730A121CA /* PBXContainerItemProxy */;
+			target = 12ED68B497E27CC6483C43DD /* Pods-Todolist-LatoFont */;
+			targetProxy = 2723F058284E79DFF5CF89AF /* PBXContainerItemProxy */;
+		};
+		87E7EBEE35109F2BF6E569C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Todolist-FontAwesomeKit";
+			target = B585F7ACBB60D7508BDB54A3 /* Pods-Todolist-FontAwesomeKit */;
+			targetProxy = E116185CF77E629F60D547F8 /* PBXContainerItemProxy */;
+		};
+		B64124E07E1B3A4A4FE0EBD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Todolist-LatoFont-LatoFont";
+			target = EC492B9BAFCDE0A268DC7852 /* Pods-Todolist-LatoFont-LatoFont */;
+			targetProxy = 5ABD23E58A5FF79A0ABEA822 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0111649C8ACCD2965717C19C /* Debug */ = {
+		255A76244C7B38F588008553 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-Todolist";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = LatoFont;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		2FCDD656FBBD80DDFE1D5B97 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AD79EEC113CF7D3BC46AEC84 /* Pods-Todolist-LatoFont-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Todolist-LatoFont/Pods-Todolist-LatoFont-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-Todolist-LatoFont/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-Todolist-LatoFont/Pods-Todolist-LatoFont.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = LatoFont;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		5B6D0CA01CF1B2FE0553467C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A6352FD1086DA2FED3DF5041 /* Pods-Todolist.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Todolist/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-Todolist/Pods-Todolist.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_Todolist;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		6505B63F7216D4DE331ED67C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B3372F963338A951D34866A4 /* Pods-Todolist-FontAwesomeKit-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Todolist-FontAwesomeKit/Pods-Todolist-FontAwesomeKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-Todolist-FontAwesomeKit/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-Todolist-FontAwesomeKit/Pods-Todolist-FontAwesomeKit.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = FontAwesomeKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		73FF5EAE249C4C313E25B1B8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 10CCFD74D0EF2269D1ADF233 /* Pods-Todolist-Cartography-Private.xcconfig */;
+			baseConfigurationReference = 79C1A3A13A1C84C9136A7F66 /* Pods-Todolist-Cartography-Private.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -912,35 +817,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Pods-Todolist-Cartography/Pods-Todolist-Cartography.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Cartography;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		746BE25E9237606B5683D99D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B3372F963338A951D34866A4 /* Pods-Todolist-FontAwesomeKit-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Todolist-FontAwesomeKit/Pods-Todolist-FontAwesomeKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-Todolist-FontAwesomeKit/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-Todolist-FontAwesomeKit/Pods-Todolist-FontAwesomeKit.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = FontAwesomeKit;
+				PRODUCT_NAME = Cartography;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -949,79 +827,7 @@
 			};
 			name = Debug;
 		};
-		856FB042F32ABADB77BD284C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AD79EEC113CF7D3BC46AEC84 /* Pods-Todolist-LatoFont-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Todolist-LatoFont/Pods-Todolist-LatoFont-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-Todolist-LatoFont/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-Todolist-LatoFont/Pods-Todolist-LatoFont.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = LatoFont;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		9636FFC7CD6EB1B3C48AA07B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-Todolist";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = LatoFont;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		C55D30E432C1FB486D16205F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
-				STRIP_INSTALLED_PRODUCT = NO;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		E3EE98303A428575E8128569 /* Debug */ = {
+		270D34536F46C76DD8D462E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1059,9 +865,9 @@
 			};
 			name = Debug;
 		};
-		F0E08E3596F2AD5B8CC227AD /* Release */ = {
+		3A41FA2EB52B1762D76B137E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C4F904F88D68F1240843D478 /* Pods-Todolist.release.xcconfig */;
+			baseConfigurationReference = 17EBD7C6EB11D8A35C01BF1D /* Pods-Todolist.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1088,9 +894,203 @@
 			};
 			name = Release;
 		};
-		F3D85734503A791B4D9F0F1C /* Debug */ = {
+		67955459D8FA114FFA8E9BE8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 10CCFD74D0EF2269D1ADF233 /* Pods-Todolist-Cartography-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-Todolist";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = LatoFont;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		878401F3B1CCE1BCE4ED07C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BE1401821EFE0D1C59CA6E3 /* Pods-Todolist.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Todolist/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Todolist/Pods-Todolist.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Todolist;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8EEDE8BCCFAFCBA4D6D2504C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 171C672B81114CE8BEBD6167 /* Pods-Todolist-FontAwesomeKit-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Todolist-FontAwesomeKit/Pods-Todolist-FontAwesomeKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Todolist-FontAwesomeKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Todolist-FontAwesomeKit/Pods-Todolist-FontAwesomeKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = FontAwesomeKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B40F7D7C3116289021DF971E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C6B7654E1D62E889BD2AC9B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA617F6FB8B8BDB368D55672 /* Pods-Todolist-LatoFont-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Todolist-LatoFont/Pods-Todolist-LatoFont-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Todolist-LatoFont/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Todolist-LatoFont/Pods-Todolist-LatoFont.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = LatoFont;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D0A49AA489FE7C37E46FE9BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-Todolist";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = LatoFont;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		E1352141FF49D8CE73E02B6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 171C672B81114CE8BEBD6167 /* Pods-Todolist-FontAwesomeKit-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Todolist-FontAwesomeKit/Pods-Todolist-FontAwesomeKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Todolist-FontAwesomeKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Todolist-FontAwesomeKit/Pods-Todolist-FontAwesomeKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = FontAwesomeKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E416446B7B401721140A7220 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA617F6FB8B8BDB368D55672 /* Pods-Todolist-LatoFont-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Todolist-LatoFont/Pods-Todolist-LatoFont-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Todolist-LatoFont/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Todolist-LatoFont/Pods-Todolist-LatoFont.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = LatoFont;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EA8C449C48B52DF587F301F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79C1A3A13A1C84C9136A7F66 /* Pods-Todolist-Cartography-Private.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1105,7 +1105,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Pods-Todolist-Cartography/Pods-Todolist-Cartography.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = Cartography;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1113,66 +1113,66 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0C6B1EC71E378E5BB82FCEA7 /* Build configuration list for PBXNativeTarget "Pods-Todolist-FontAwesomeKit" */ = {
+		030380FB2C8019C25AD1F952 /* Build configuration list for PBXNativeTarget "Pods-Todolist-LatoFont-LatoFont" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				746BE25E9237606B5683D99D /* Debug */,
-				6505B63F7216D4DE331ED67C /* Release */,
+				67955459D8FA114FFA8E9BE8 /* Debug */,
+				D0A49AA489FE7C37E46FE9BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		146217F9F7C8B4AA3DF6B628 /* Build configuration list for PBXProject "Pods" */ = {
+		1492A9D8F8A70A3C458457EB /* Build configuration list for PBXNativeTarget "Pods-Todolist-Cartography" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E3EE98303A428575E8128569 /* Debug */,
-				C55D30E432C1FB486D16205F /* Release */,
+				255A76244C7B38F588008553 /* Debug */,
+				EA8C449C48B52DF587F301F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		512F205300EE42393622BDF0 /* Build configuration list for PBXNativeTarget "Pods-Todolist-LatoFont" */ = {
+		50950606AC2B75D4A0CF44B5 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2FCDD656FBBD80DDFE1D5B97 /* Debug */,
-				856FB042F32ABADB77BD284C /* Release */,
+				270D34536F46C76DD8D462E3 /* Debug */,
+				B40F7D7C3116289021DF971E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6406E9B12FB063DEB3587D10 /* Build configuration list for PBXNativeTarget "Pods-Todolist-LatoFont-LatoFont" */ = {
+		9069AFF897607F2531DD5EDB /* Build configuration list for PBXNativeTarget "Pods-Todolist-FontAwesomeKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0111649C8ACCD2965717C19C /* Debug */,
-				9636FFC7CD6EB1B3C48AA07B /* Release */,
+				8EEDE8BCCFAFCBA4D6D2504C /* Debug */,
+				E1352141FF49D8CE73E02B6C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6E9F0C0F735994F410B833A8 /* Build configuration list for PBXNativeTarget "Pods-Todolist" */ = {
+		A7A1BF77FAFD1021CF2E79D3 /* Build configuration list for PBXNativeTarget "Pods-Todolist" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5B6D0CA01CF1B2FE0553467C /* Debug */,
-				F0E08E3596F2AD5B8CC227AD /* Release */,
+				878401F3B1CCE1BCE4ED07C4 /* Debug */,
+				3A41FA2EB52B1762D76B137E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7B94E490DCDD2D7414F6BE6C /* Build configuration list for PBXNativeTarget "Pods-Todolist-Cartography" */ = {
+		D48B08485EFFBB956EE213CD /* Build configuration list for PBXNativeTarget "Pods-Todolist-LatoFont" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F3D85734503A791B4D9F0F1C /* Debug */,
-				73FF5EAE249C4C313E25B1B8 /* Release */,
+				E416446B7B401721140A7220 /* Debug */,
+				C6B7654E1D62E889BD2AC9B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 750E1A87D6FAC92EA6C8AE0B /* Project object */;
+	rootObject = DBCAC776A0BACC2A5BCF8D79 /* Project object */;
 }
