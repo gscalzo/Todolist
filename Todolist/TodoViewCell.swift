@@ -87,7 +87,7 @@ extension TodoViewCell{
     
     func render(todo: Todo){
         let dateFormatter:NSDateFormatter = NSDateFormatter()
-        dateFormatter.dateFormat = "dd-MM-YY"
+        dateFormatter.dateFormat = "HH:mm dd-MM-YY"
         let dueDate = dateFormatter.stringFromDate(todo.dueDate)
 
         subtitle.text = "\(dueDate) | \(todo.list.description)"

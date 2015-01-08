@@ -20,26 +20,18 @@ class TodosDatastore {
         Todo(description: "todo 1", list: List(description: "Personal"), dueDate: NSDate(), done: false, doneDate: nil),
         Todo(description: "todo 2", list: List(description: "Personal"), dueDate: NSDate(), done: false, doneDate: nil),
         Todo(description: "todo 3", list: List(description: "Personal"), dueDate: NSDate(), done: false, doneDate: nil),
-        Todo(description: "todo 4", list: List(description: "Personal"), dueDate: NSDate(), done: false, doneDate: nil),
-        Todo(description: "todo 5", list: List(description: "Personal"), dueDate: NSDate(), done: false, doneDate: nil),
-        Todo(description: "todo 6", list: List(description: "Personal"), dueDate: NSDate(), done: false, doneDate: nil),
-        Todo(description: "todo 7", list: List(description: "Personal"), dueDate: NSDate(), done: false, doneDate: nil),
-        Todo(description: "todo 8", list: List(description: "Personal"), dueDate: NSDate(), done: false, doneDate: nil),
-        Todo(description: "todo 9", list: List(description: "Personal"), dueDate: NSDate(), done: false, doneDate: nil),
-        Todo(description: "todo 10", list: List(description: "Personal"), dueDate: NSDate(), done: false, doneDate: nil),
-        Todo(description: "todo 11", list: List(description: "Personal"), dueDate: NSDate(), done: false, doneDate: nil),
-        Todo(description: "todo 12", list: List(description: "Personal"), dueDate: NSDate(), done: false, doneDate: nil),
-        Todo(description: "todo 13", list: List(description: "Personal"), dueDate: NSDate(), done: false, doneDate: nil),
-        Todo(description: "todo 14", list: List(description: "Personal"), dueDate: NSDate(), done: false, doneDate: nil),
-        Todo(description: "todo 15", list: List(description: "Personal"), dueDate: NSDate(), done: false, doneDate: nil),
-        Todo(description: "todo 16", list: List(description: "Personal"), dueDate: NSDate(), done: false, doneDate: nil),
-        Todo(description: "todo 17", list: List(description: "Personal"), dueDate: NSDate(), done: false, doneDate: nil),
-        Todo(description: "todo 18", list: List(description: "Personal"), dueDate: NSDate(), done: false, doneDate: nil),
     ]
 
     func defaultList() -> List {
         return List(description: "Personal")
     }
+    
+    func defaultDueDate() -> NSDate {
+        let now = NSDate()
+        let secondsInADay = NSTimeInterval(24 * 60 * 60)
+        return now.dateByAddingTimeInterval(secondsInADay)
+    }
+    
     
     func todos() -> Array<Todo> {
         return savedTodos
@@ -53,8 +45,12 @@ class TodosDatastore {
 // MARK: Actions
 extension TodosDatastore {
     func addListDescription(description: String) {
-        if countElements(description) > 0 {
+        if !description.isEmpty {
             savedLists = savedLists + [List(description: description)]
         }
+    }
+    
+    func addTodo(todo: Todo) {
+        savedTodos = savedTodos + [todo]
     }
 }

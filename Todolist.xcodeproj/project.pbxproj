@@ -14,6 +14,7 @@
 		EE7758091A5E06C500E4D13E /* UIColor+Todolist.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7758081A5E06C500E4D13E /* UIColor+Todolist.swift */; };
 		EE77580B1A5E094E00E4D13E /* ListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE77580A1A5E094E00E4D13E /* ListViewCell.swift */; };
 		EE77580D1A5E0A8D00E4D13E /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE77580C1A5E0A8D00E4D13E /* List.swift */; };
+		EE915D3A1A5EF51C00406D4F /* CoreDataDatastore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE915D391A5EF51C00406D4F /* CoreDataDatastore.swift */; };
 		EECD2A841A5B560300B8C0CF /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECD2A831A5B560300B8C0CF /* Todo.swift */; };
 		EECD2A861A5B56BE00B8C0CF /* TodosDatastore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECD2A851A5B56BE00B8C0CF /* TodosDatastore.swift */; };
 		EECD2A881A5B5A1600B8C0CF /* TodoViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECD2A871A5B5A1600B8C0CF /* TodoViewCell.swift */; };
@@ -47,6 +48,7 @@
 		EE7758081A5E06C500E4D13E /* UIColor+Todolist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Todolist.swift"; sourceTree = "<group>"; };
 		EE77580A1A5E094E00E4D13E /* ListViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewCell.swift; sourceTree = "<group>"; };
 		EE77580C1A5E0A8D00E4D13E /* List.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = List.swift; sourceTree = "<group>"; };
+		EE915D391A5EF51C00406D4F /* CoreDataDatastore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataDatastore.swift; sourceTree = "<group>"; };
 		EECD2A831A5B560300B8C0CF /* Todo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
 		EECD2A851A5B56BE00B8C0CF /* TodosDatastore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodosDatastore.swift; sourceTree = "<group>"; };
 		EECD2A871A5B5A1600B8C0CF /* TodoViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoViewCell.swift; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				EECD2A851A5B56BE00B8C0CF /* TodosDatastore.swift */,
+				EE915D391A5EF51C00406D4F /* CoreDataDatastore.swift */,
 			);
 			name = Datastores;
 			sourceTree = "<group>";
@@ -342,6 +345,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE915D3A1A5EF51C00406D4F /* CoreDataDatastore.swift in Sources */,
 				EE6C93131A5CA86500F2865A /* EditTodoViewController.swift in Sources */,
 				EECD2A861A5B56BE00B8C0CF /* TodosDatastore.swift in Sources */,
 				EE77580B1A5E094E00E4D13E /* ListViewCell.swift in Sources */,
@@ -479,7 +483,7 @@
 				INFOPLIST_FILE = Todolist/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Todolist/Todolist-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};
 			name = Debug;
 		};
@@ -491,7 +495,7 @@
 				INFOPLIST_FILE = Todolist/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Todolist/Todolist-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};
 			name = Release;
 		};
