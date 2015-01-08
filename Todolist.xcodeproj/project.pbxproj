@@ -11,6 +11,9 @@
 		EE35D6DD1A5B3D99006E38CF /* TodosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE35D6DC1A5B3D99006E38CF /* TodosViewController.swift */; };
 		EE50F1981A5DED84009DC5EE /* ListsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE50F1971A5DED84009DC5EE /* ListsViewController.swift */; };
 		EE6C93131A5CA86500F2865A /* EditTodoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6C93121A5CA86500F2865A /* EditTodoViewController.swift */; };
+		EE7758091A5E06C500E4D13E /* UIColor+Todolist.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7758081A5E06C500E4D13E /* UIColor+Todolist.swift */; };
+		EE77580B1A5E094E00E4D13E /* ListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE77580A1A5E094E00E4D13E /* ListViewCell.swift */; };
+		EE77580D1A5E0A8D00E4D13E /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE77580C1A5E0A8D00E4D13E /* List.swift */; };
 		EECD2A841A5B560300B8C0CF /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECD2A831A5B560300B8C0CF /* Todo.swift */; };
 		EECD2A861A5B56BE00B8C0CF /* TodosDatastore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECD2A851A5B56BE00B8C0CF /* TodosDatastore.swift */; };
 		EECD2A881A5B5A1600B8C0CF /* TodoViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECD2A871A5B5A1600B8C0CF /* TodoViewCell.swift */; };
@@ -41,6 +44,9 @@
 		EE35D6DC1A5B3D99006E38CF /* TodosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodosViewController.swift; sourceTree = "<group>"; };
 		EE50F1971A5DED84009DC5EE /* ListsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListsViewController.swift; sourceTree = "<group>"; };
 		EE6C93121A5CA86500F2865A /* EditTodoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditTodoViewController.swift; sourceTree = "<group>"; };
+		EE7758081A5E06C500E4D13E /* UIColor+Todolist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Todolist.swift"; sourceTree = "<group>"; };
+		EE77580A1A5E094E00E4D13E /* ListViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewCell.swift; sourceTree = "<group>"; };
+		EE77580C1A5E0A8D00E4D13E /* List.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = List.swift; sourceTree = "<group>"; };
 		EECD2A831A5B560300B8C0CF /* Todo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
 		EECD2A851A5B56BE00B8C0CF /* TodosDatastore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodosDatastore.swift; sourceTree = "<group>"; };
 		EECD2A871A5B5A1600B8C0CF /* TodoViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoViewCell.swift; sourceTree = "<group>"; };
@@ -91,6 +97,7 @@
 				EECD2A871A5B5A1600B8C0CF /* TodoViewCell.swift */,
 				EE6C93121A5CA86500F2865A /* EditTodoViewController.swift */,
 				EE50F1971A5DED84009DC5EE /* ListsViewController.swift */,
+				EE77580A1A5E094E00E4D13E /* ListViewCell.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -99,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				EECD2A831A5B560300B8C0CF /* Todo.swift */,
+				EE77580C1A5E0A8D00E4D13E /* List.swift */,
 			);
 			name = Entities;
 			sourceTree = "<group>";
@@ -138,6 +146,7 @@
 				EECD2A811A5B55DC00B8C0CF /* Entities */,
 				EE35D6DB1A5B3D75006E38CF /* ViewControllers */,
 				EEFD418B1A56B7DE008A5627 /* AppDelegate.swift */,
+				EE7758081A5E06C500E4D13E /* UIColor+Todolist.swift */,
 				EEFD418D1A56B7DE008A5627 /* ViewController.swift */,
 				EEFD418F1A56B7DE008A5627 /* Main.storyboard */,
 				EEFD41921A56B7DE008A5627 /* Images.xcassets */,
@@ -335,10 +344,13 @@
 			files = (
 				EE6C93131A5CA86500F2865A /* EditTodoViewController.swift in Sources */,
 				EECD2A861A5B56BE00B8C0CF /* TodosDatastore.swift in Sources */,
+				EE77580B1A5E094E00E4D13E /* ListViewCell.swift in Sources */,
 				EE50F1981A5DED84009DC5EE /* ListsViewController.swift in Sources */,
 				EEFD418E1A56B7DE008A5627 /* ViewController.swift in Sources */,
 				EE35D6DD1A5B3D99006E38CF /* TodosViewController.swift in Sources */,
+				EE77580D1A5E0A8D00E4D13E /* List.swift in Sources */,
 				EEFD418C1A56B7DE008A5627 /* AppDelegate.swift in Sources */,
+				EE7758091A5E06C500E4D13E /* UIColor+Todolist.swift in Sources */,
 				EECD2A881A5B5A1600B8C0CF /* TodoViewCell.swift in Sources */,
 				EECD2A841A5B560300B8C0CF /* Todo.swift in Sources */,
 			);

@@ -7,8 +7,12 @@
 //
 
 import UIKit
+import Cartography
 
 class ListsViewController: UIViewController {
+    private let tableView = UITableView()
+    private let addButton = UIButton()
+    
     private let todosDatastore: TodosDatastore
     private let todoToEdit: Todo
     
@@ -39,40 +43,89 @@ class ListsViewController: UIViewController {
 private extension ListsViewController{
     func setup(){
         title = "Lists"
-//        descriptionTextField.placeholder = "Description of Todo"
-//        view.addSubview(descriptionTextField)
-//        view.addSubview(descriptionSeparator)
-//        
-//        descriptionTextField.becomeFirstResponder()
+        tableView.registerClass(ListViewCell.classForCoder(), forCellReuseIdentifier: "Cell")
+        tableView.dataSource = self
+        tableView.delegate = self
+        tableView.contentInset = UIEdgeInsets(top: 10, left: 0, bottom: 100, right: 0)
+        view.addSubview(tableView)
+        
+        addButton.addTarget(self, action: "addListButtonPressed:", forControlEvents: .TouchUpInside)
+        view.addSubview(addButton)
     }
 }
 
 // MARK: Layout
 private extension ListsViewController{
     func layoutView(){
-//        layout(descriptionTextField) { view in
-//            view.top == view.superview!.top + 50
-//            view.left == view.superview!.left + 10
-//            view.right == view.superview!.right - 10
-//            view.height == 40
-//        }
-//        
-//        layout(descriptionSeparator, descriptionTextField) {view, view2 in
-//            view.left == view.superview!.left
-//            view.right == view.superview!.right
-//            view.top == view2.bottom
-//            view.height == 1
-//        }
+        layout(tableView) { view in
+            view.top == view.superview!.top
+            view.bottom == view.superview!.bottom
+            view.left == view.superview!.left
+            view.right == view.superview!.right
+        }
+        layout(addButton) { view in
+            view.bottom == view.superview!.bottom - 5
+            view.centerX == view.superview!.centerX
+            view.width == view.height
+            view.height == 60
+        }
     }
 }
 
 // MARK: Style
 private extension ListsViewController{
     func style(){
-        view.backgroundColor = UIColor.redColor()
-//        descriptionTextField.font = UIFont.latoLightFontOfSize(20)
-//        descriptionTextField.backgroundColor = UIColor.whiteColor()
-//        descriptionSeparator.backgroundColor = UIColor.lightGrayColor()
+        view.backgroundColor = UIColor.whiteColor()
+        addButton.setImage(UIImage(named: "add-button"), forState: .Normal)
+    }
+}
+
+// MARK: UITableViewDataSource
+extension ListsViewController : UITableViewDataSource {
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return todosDatastore.lists().count
+    }
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCellWithIdentifier("Cell") as ListViewCell
+        let list = todosDatastore.lists()[indexPath.row]
+        cell.render(list)
+        return cell
+    }
+}
+
+// MARK: UITableViewDelegate
+extension ListsViewController : UITableViewDelegate {
+    func tableView(tableView: UITableView,
+        heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+            return 50
+    }
+    
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+    }
+}
+
+// MARK: Actions
+extension ListsViewController {
+    func addListButtonPressed(sender: UIButton!){
+        let alertViewChangeName = UIAlertView(title: "Add a list",
+            message: "",
+            delegate: self,
+            cancelButtonTitle: "Cancel",
+            otherButtonTitles: "OK")
+        alertViewChangeName.alertViewStyle = .PlainTextInput
+        alertViewChangeName.show()
+    }
+}
+
+// MARK: UIAlertViewDelegate
+extension ListsViewController: UIAlertViewDelegate {
+    func alertView(alertView: UIAlertView,
+        clickedButtonAtIndex buttonIndex: Int){
+            if buttonIndex == 1 {
+                let description = alertView.textFieldAtIndex(0)!.text
+                todosDatastore.addListDescription(description)
+                tableView.reloadData()
+            }
     }
 }
 

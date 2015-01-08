@@ -19,6 +19,7 @@ class EditTodoViewController: UIViewController {
     
     private let todosDatastore: TodosDatastore
     private let todoToEdit: Todo?
+    private var list: List
     
     private override init() {
         fatalError("init() must not called")
@@ -27,6 +28,12 @@ class EditTodoViewController: UIViewController {
     required init(todosDatastore: TodosDatastore, todoToEdit: Todo?) {
         self.todosDatastore = todosDatastore
         self.todoToEdit = todoToEdit
+        if self.todoToEdit != nil {
+            //            list = self.todoToEdit.list
+            list = self.todosDatastore.defaultList()
+        } else {
+            list = self.todosDatastore.defaultList()
+        }
         super.init(nibName: nil, bundle: nil)
     }
     
@@ -54,13 +61,13 @@ private extension EditTodoViewController{
         view.addSubview(listAssociatedName)
         view.addSubview(listButton)
         listButton.addTarget(self, action: "listButtonPressed:", forControlEvents: .TouchUpInside)
-
+        
         view.addSubview(listSeparator)
         
         listButton.setAttributedTitle(FAKFontAwesome.listIconWithSize(20).attributedString(), forState: .Normal)
         
         // mettere in metodo a parte per render todo
-        listAssociatedName.text = "List: personal"
+        listAssociatedName.text = "List: \(list.description)"
     }
 }
 
@@ -73,7 +80,7 @@ private extension EditTodoViewController{
             view.right == view.superview!.right - 10
             view.height == 50
         }
-
+        
         layout(descriptionSeparator, descriptionTextField) {view, view2 in
             view.left == view.superview!.left
             view.right == view.superview!.right
@@ -85,7 +92,7 @@ private extension EditTodoViewController{
             view.top == view2.bottom
             return
         }
-
+        
         layout(listAssociatedName, descriptionTextField) {view, view2 in
             view.left == view2.left
             view.height == view2.height
@@ -105,7 +112,7 @@ private extension EditTodoViewController{
             view.top == view2.bottom
             view.height == 1
         }
-
+        
     }
 }
 
@@ -115,11 +122,11 @@ private extension EditTodoViewController{
         view.backgroundColor = UIColor.whiteColor()
         descriptionTextField.font = UIFont.latoLightFontOfSize(20)
         descriptionTextField.backgroundColor = UIColor.whiteColor()
-        descriptionSeparator.backgroundColor = UIColor.lightGrayColor()
-
+        descriptionSeparator.backgroundColor = UIColor.separatorColor()
+        
         listAssociatedName.font = UIFont.latoBoldFontOfSize(16)
         listAssociatedName.backgroundColor = UIColor.whiteColor()
-        listSeparator.backgroundColor = UIColor.lightGrayColor()
+        listSeparator.backgroundColor = UIColor.separatorColor()
     }
 }
 

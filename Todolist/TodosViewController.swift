@@ -73,7 +73,7 @@ private extension TodosViewController{
 // MARK: Style
 private extension TodosViewController{
     func style(){
-        view.backgroundColor = UIColor.grayColor()
+        view.backgroundColor = UIColor.whiteColor()
         addButton.setImage(UIImage(named: "add-button"), forState: .Normal)
     }
 }

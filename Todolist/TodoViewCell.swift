@@ -9,7 +9,6 @@
 import UIKit
 import Foundation
 import Cartography
-import LatoFont
 import FontAwesomeKit
 
 class TodoViewCell: UITableViewCell {
