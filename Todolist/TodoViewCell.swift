@@ -15,7 +15,6 @@ class TodoViewCell: UITableViewCell {
     private let subtitle = UILabel()
     private let title = UILabel()
     private let checkMark = UILabel()
-    private let separatorSize = 5
     
     override func layoutSubviews() {
         super.layoutSubviews()
@@ -87,7 +86,11 @@ extension TodoViewCell{
     }
     
     func render(todo: Todo){
-        subtitle.text = "10:00 | \(todo.list.description)"
+        let dateFormatter:NSDateFormatter = NSDateFormatter()
+        dateFormatter.dateFormat = "dd-MM-YY"
+        let dueDate = dateFormatter.stringFromDate(todo.dueDate)
+
+        subtitle.text = "\(dueDate) | \(todo.list.description)"
         title.text = todo.description
         
         checkMark.attributedText = checkmarkAttributedStringTodo(todo)
