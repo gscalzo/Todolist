@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		2E7F8AD67D7EF0CDA8CA7736 /* Pods_Todolist.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6ED2422D68764015009F485 /* Pods_Todolist.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		EE35D6DD1A5B3D99006E38CF /* TodosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE35D6DC1A5B3D99006E38CF /* TodosViewController.swift */; };
+		EE50F1981A5DED84009DC5EE /* ListsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE50F1971A5DED84009DC5EE /* ListsViewController.swift */; };
+		EE6C93131A5CA86500F2865A /* EditTodoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6C93121A5CA86500F2865A /* EditTodoViewController.swift */; };
 		EECD2A841A5B560300B8C0CF /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECD2A831A5B560300B8C0CF /* Todo.swift */; };
 		EECD2A861A5B56BE00B8C0CF /* TodosDatastore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECD2A851A5B56BE00B8C0CF /* TodosDatastore.swift */; };
 		EECD2A881A5B5A1600B8C0CF /* TodoViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECD2A871A5B5A1600B8C0CF /* TodoViewCell.swift */; };
@@ -37,6 +39,8 @@
 		D6ED2422D68764015009F485 /* Pods_Todolist.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Todolist.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE2D1BDF1A5715C900B75C13 /* Todolist-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Todolist-Bridging-Header.h"; sourceTree = "<group>"; };
 		EE35D6DC1A5B3D99006E38CF /* TodosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodosViewController.swift; sourceTree = "<group>"; };
+		EE50F1971A5DED84009DC5EE /* ListsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListsViewController.swift; sourceTree = "<group>"; };
+		EE6C93121A5CA86500F2865A /* EditTodoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditTodoViewController.swift; sourceTree = "<group>"; };
 		EECD2A831A5B560300B8C0CF /* Todo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
 		EECD2A851A5B56BE00B8C0CF /* TodosDatastore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodosDatastore.swift; sourceTree = "<group>"; };
 		EECD2A871A5B5A1600B8C0CF /* TodoViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoViewCell.swift; sourceTree = "<group>"; };
@@ -85,6 +89,8 @@
 			children = (
 				EE35D6DC1A5B3D99006E38CF /* TodosViewController.swift */,
 				EECD2A871A5B5A1600B8C0CF /* TodoViewCell.swift */,
+				EE6C93121A5CA86500F2865A /* EditTodoViewController.swift */,
+				EE50F1971A5DED84009DC5EE /* ListsViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -327,7 +333,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE6C93131A5CA86500F2865A /* EditTodoViewController.swift in Sources */,
 				EECD2A861A5B56BE00B8C0CF /* TodosDatastore.swift in Sources */,
+				EE50F1981A5DED84009DC5EE /* ListsViewController.swift in Sources */,
 				EEFD418E1A56B7DE008A5627 /* ViewController.swift in Sources */,
 				EE35D6DD1A5B3D99006E38CF /* TodosViewController.swift in Sources */,
 				EEFD418C1A56B7DE008A5627 /* AppDelegate.swift in Sources */,

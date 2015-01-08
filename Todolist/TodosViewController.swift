@@ -39,6 +39,7 @@ class TodosViewController: UIViewController {
 // MARK: Setup
 private extension TodosViewController{
     func setup(){
+        title = "Todos"
         view.backgroundColor = UIColor.grayColor()
         tableView.registerClass(TodoViewCell.classForCoder(), forCellReuseIdentifier: "Cell")
         tableView.dataSource = self
@@ -46,6 +47,7 @@ private extension TodosViewController{
         tableView.contentInset = UIEdgeInsets(top: 10, left: 0, bottom: 100, right: 0)
         view.addSubview(tableView)
         
+        addButton.addTarget(self, action: "addTodoButtonPressed:", forControlEvents: .TouchUpInside)
         view.addSubview(addButton)
     }
 }
@@ -94,5 +96,18 @@ extension TodosViewController : UITableViewDelegate {
     func tableView(tableView: UITableView,
         heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
             return 80
+    }
+    
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+    }
+}
+
+// MARK: Actions
+ extension TodosViewController {
+    func addTodoButtonPressed(sender: UIButton!){
+        let editTodoVC = EditTodoViewController(todosDatastore: self.todosDatastore, todoToEdit: nil)
+        editTodoVC.title = "New Todo"
+        navigationController!.pushViewController(editTodoVC, animated: true)
+
     }
 }
