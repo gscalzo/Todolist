@@ -65,8 +65,10 @@ private extension EditTodoViewController{
         view.addSubview(listSeparator)
         
         listButton.setAttributedTitle(FAKFontAwesome.listIconWithSize(20).attributedString(), forState: .Normal)
-        
-        // mettere in metodo a parte per render todo
+        refresh()
+    }
+    
+    func refresh() {
         listAssociatedName.text = "List: \(list.description)"
     }
 }
@@ -134,7 +136,10 @@ private extension EditTodoViewController{
 // MARK: Actions
 extension EditTodoViewController {
     func listButtonPressed(sender: UIButton!){
-        let listsVC = ListsViewController(todosDatastore: todosDatastore, todoToEdit: Todo(description: "sddd", dueDate: NSDate(), done: false, doneDate: nil))
+        let listsVC = ListsViewController(todosDatastore: todosDatastore) { list in
+            self.list = list
+            self.refresh()
+        }
         navigationController!.pushViewController(listsVC, animated: true)
     }
 }

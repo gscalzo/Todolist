@@ -87,7 +87,7 @@ extension TodoViewCell{
     }
     
     func render(todo: Todo){
-        subtitle.text = "10:00 | Personal"
+        subtitle.text = "10:00 | \(todo.list.description)"
         title.text = todo.description
         
         checkMark.attributedText = checkmarkAttributedStringTodo(todo)

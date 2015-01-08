@@ -14,15 +14,15 @@ class ListsViewController: UIViewController {
     private let addButton = UIButton()
     
     private let todosDatastore: TodosDatastore
-    private let todoToEdit: Todo
+    private let onListSelected: (list: List) -> Void
     
     private override init() {
         fatalError("init() must not called")
     }
     
-    required init(todosDatastore: TodosDatastore, todoToEdit: Todo) {
+    required init(todosDatastore: TodosDatastore, onListSelected: (list: List) -> Void) {
         self.todosDatastore = todosDatastore
-        self.todoToEdit = todoToEdit
+        self.onListSelected = onListSelected
         super.init(nibName: nil, bundle: nil)
     }
     
@@ -89,6 +89,7 @@ extension ListsViewController : UITableViewDataSource {
         let cell = tableView.dequeueReusableCellWithIdentifier("Cell") as ListViewCell
         let list = todosDatastore.lists()[indexPath.row]
         cell.render(list)
+        cell.selectionStyle = .None
         return cell
     }
 }
@@ -101,6 +102,9 @@ extension ListsViewController : UITableViewDelegate {
     }
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        let list = todosDatastore.lists()[indexPath.row]
+        onListSelected(list: list)
+        navigationController?.popViewControllerAnimated(true)        
     }
 }
 
