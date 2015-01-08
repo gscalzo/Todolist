@@ -23,6 +23,8 @@ class EditTodoViewController: UIViewController {
     
     private let doneButton = UIButton()
     
+    private let dueDatePicker = UIDatePicker()
+    
     private let todosDatastore: TodosDatastore
     private let todoToEdit: Todo?
     private var list: List
@@ -62,34 +64,54 @@ class EditTodoViewController: UIViewController {
 // MARK: Setup
 private extension EditTodoViewController{
     func setup(){
-        descriptionTextField.placeholder = "Description of Todo"
-        descriptionTextField.becomeFirstResponder()
-        view.addSubview(descriptionTextField)
-        view.addSubview(descriptionSeparator)
+        func descriptionSetup() {
+            descriptionTextField.placeholder = "Description of Todo"
+            descriptionTextField.becomeFirstResponder()
+            view.addSubview(descriptionTextField)
+            view.addSubview(descriptionSeparator)
+        }
         
-        view.addSubview(listNameLabel)
-        listButton.setAttributedTitle(FAKFontAwesome.listIconWithSize(20).attributedString(), forState: .Normal)
-        listButton.addTarget(self, action: "listButtonPressed:", forControlEvents: .TouchUpInside)
-        view.addSubview(listButton)
-        view.addSubview(listSeparator)
+        func listSetup() {
+            view.addSubview(listNameLabel)
+            listButton.setAttributedTitle(FAKFontAwesome.listIconWithSize(20).attributedString(), forState: .Normal)
+            listButton.addTarget(self, action: "listButtonPressed:", forControlEvents: .TouchUpInside)
+            view.addSubview(listButton)
+            view.addSubview(listSeparator)
+        }
         
-        view.addSubview(dueDateLabel)
-        dueDateButton.setAttributedTitle(FAKFontAwesome.clockOIconWithSize(20).attributedString(), forState: .Normal)
-        dueDateButton.addTarget(self, action: "dueDateButtonPressed:", forControlEvents: .TouchUpInside)
-        view.addSubview(dueDateButton)
-        view.addSubview(dueDateSeparator)
+        func dueDateSetup() {
+            view.addSubview(dueDateLabel)
+            dueDateButton.setAttributedTitle(FAKFontAwesome.clockOIconWithSize(20).attributedString(), forState: .Normal)
+            dueDateButton.addTarget(self, action: "dueDateButtonPressed:", forControlEvents: .TouchUpInside)
+            view.addSubview(dueDateButton)
+            view.addSubview(dueDateSeparator)
+        }
         
+        func doneSetup() {
+            doneButton.setAttributedTitle(FAKFontAwesome.checkIconWithSize(80).attributedString(), forState: .Normal)
+            doneButton.addTarget(self, action: "doneButtonPressed:", forControlEvents: .TouchUpInside)
+            view.addSubview(doneButton)
+        }
         
-        doneButton.setAttributedTitle(FAKFontAwesome.checkIconWithSize(80).attributedString(), forState: .Normal)
-        doneButton.addTarget(self, action: "doneButtonPressed:", forControlEvents: .TouchUpInside)
-        view.addSubview(doneButton)
+        func datePickerSetup() {
+            dueDatePicker.datePickerMode = .DateAndTime
+            dueDatePicker.minimumDate = NSDate()
+            dueDatePicker.date = dueDate
+            dueDatePicker.addTarget(self, action: "dueDateChanged:", forControlEvents: .ValueChanged)
+            view.addSubview(dueDatePicker)
+        }
         
+        descriptionSetup()
+        listSetup()
+        dueDateSetup()
+        doneSetup()
+        datePickerSetup()
         refresh()
     }
     
     func refresh() {
         listNameLabel.text = "List: \(list.description)"
-
+        
         let dateFormatter:NSDateFormatter = NSDateFormatter()
         dateFormatter.dateFormat = "HH:mm dd-MM-YY"
         let formattedDueDate = dateFormatter.stringFromDate(dueDate)
@@ -179,10 +201,19 @@ private extension EditTodoViewController{
             }
         }
         
+        func datePickerLayout() {
+            layout(dueDatePicker) {view in
+                view.left == view.superview!.left
+                view.right == view.superview!.right
+                view.bottom == view.superview!.bottom
+            }
+        }
+        
         descriptionLayout()
         listLayout()
         dueDateLayout()
         doneLayout()
+        datePickerLayout()
         
     }
 }
@@ -216,6 +247,10 @@ extension EditTodoViewController {
         navigationController!.pushViewController(listsVC, animated: true)
     }
     
+    func dueDateButtonPressed(sender: UIButton!) {
+        descriptionTextField.resignFirstResponder()
+    }
+    
     func doneButtonPressed(sender: UIButton!) {
         if !descriptionTextField.text.isEmpty {
             let newTodo = Todo(description: descriptionTextField.text,
@@ -227,4 +262,10 @@ extension EditTodoViewController {
             navigationController!.popViewControllerAnimated(true)
         }
     }
+
+    func dueDateChanged(sender: UIButton!) {
+        dueDate = dueDatePicker.date
+        refresh()
+    }
+
 }
