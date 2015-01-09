@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import LatoFont
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
