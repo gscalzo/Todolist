@@ -10,8 +10,9 @@ import UIKit
 import Foundation
 import Cartography
 import FontAwesomeKit
+import MGSwipeTableCell
 
-class TodoViewCell: UITableViewCell {
+class TodoViewCell: MGSwipeTableCell {
     private let subtitle = UILabel()
     private let title = UILabel()
     private let checkMark = UILabel()

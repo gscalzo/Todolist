@@ -9,19 +9,9 @@
 import Foundation
 
 class TodosDatastore {
-    private var savedLists = [
-        List(description: "List1"),
-        List(description: "List2"),
-        List(description: "List3"),
-        List(description: "List4"),
-    ]
+    private var savedLists = Array<List>()
+    private var savedTodos = Array<Todo>()
     
-    private var savedTodos = [
-        Todo(description: "todo 1", list: List(description: "Personal"), dueDate: NSDate(), done: false, doneDate: nil),
-        Todo(description: "todo 2", list: List(description: "Personal"), dueDate: NSDate(), done: false, doneDate: nil),
-        Todo(description: "todo 3", list: List(description: "Personal"), dueDate: NSDate(), done: false, doneDate: nil),
-    ]
-
     func defaultList() -> List {
         return List(description: "Personal")
     }
@@ -53,4 +43,23 @@ extension TodosDatastore {
     func addTodo(todo: Todo) {
         savedTodos = savedTodos + [todo]
     }
+    
+    func deleteTodo(todo: Todo?) {
+        if let todo = todo {
+            savedTodos = savedTodos.filter({$0 != todo})
+        }
+    }
+    
+    func doneTodo(todo: Todo) {
+        deleteTodo(todo)
+        let doneTodo = Todo(description: todo.description,
+            list: todo.list,
+            dueDate:
+            todo.dueDate,
+            done: true,
+            doneDate: NSDate())
+        addTodo(doneTodo)
+    }
+    
+    
 }

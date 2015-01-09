@@ -38,6 +38,7 @@ class EditTodoViewController: UIViewController {
         self.todosDatastore = todosDatastore
         self.todoToEdit = todoToEdit
         if let todo = self.todoToEdit {
+            descriptionTextField.text = todo.description
             list = todo.list
             dueDate = todo.dueDate
         } else {
@@ -259,6 +260,7 @@ extension EditTodoViewController {
                 done: false,
                 doneDate: nil)
             todosDatastore.addTodo(newTodo)
+            todosDatastore.deleteTodo(todoToEdit)
             navigationController!.popViewControllerAnimated(true)
         }
     }

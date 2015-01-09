@@ -111,8 +111,8 @@ extension ListsViewController : UITableViewDelegate {
 // MARK: Actions
 extension ListsViewController {
     func addListButtonPressed(sender: UIButton!){
-        let alertViewChangeName = UIAlertView(title: "Add a list",
-            message: "",
+        let alertViewChangeName = UIAlertView(title: "Enter list name",
+            message: "To create a new list, please enter the name of the list",
             delegate: self,
             cancelButtonTitle: "Cancel",
             otherButtonTitles: "OK")

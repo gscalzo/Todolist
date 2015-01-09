@@ -48,9 +48,11 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework 'Cartography.framework'
   install_framework 'FontAwesomeKit.framework'
   install_framework 'LatoFont.framework'
+  install_framework 'MGSwipeTableCell.framework'
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework 'Cartography.framework'
   install_framework 'FontAwesomeKit.framework'
   install_framework 'LatoFont.framework'
+  install_framework 'MGSwipeTableCell.framework'
 fi
