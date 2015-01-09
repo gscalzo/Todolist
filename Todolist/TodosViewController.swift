@@ -114,6 +114,8 @@ extension TodosViewController : UITableViewDataSource {
                 return true
             }
         ]
+        cell.rightExpansion.buttonIndex = 0
+
         cell.leftButtons = [
             MGSwipeButton(title: "Done", backgroundColor: UIColor.emerald(), padding: 30) {
                 [weak self] sender in
@@ -121,6 +123,7 @@ extension TodosViewController : UITableViewDataSource {
                 return true
             }
         ]
+        cell.leftExpansion.buttonIndex = 0
         
         return cell
     }

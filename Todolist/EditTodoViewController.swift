@@ -237,7 +237,6 @@ private extension EditTodoViewController{
     }
 }
 
-
 // MARK: Actions
 extension EditTodoViewController {
     func listButtonPressed(sender: UIButton!){
