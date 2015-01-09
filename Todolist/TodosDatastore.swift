@@ -11,6 +11,13 @@ import Foundation
 class TodosDatastore {
     private var savedLists = Array<List>()
     private var savedTodos = Array<Todo>()
+    private let coreDataDatastore: CoreDataDatastore
+    
+    init(coreDataDatastore: CoreDataDatastore){
+        self.coreDataDatastore = coreDataDatastore
+        savedLists = coreDataDatastore.lists()
+        savedTodos = coreDataDatastore.todos()
+    }
     
     func defaultList() -> List {
         return List(description: "Personal")
@@ -36,17 +43,20 @@ class TodosDatastore {
 extension TodosDatastore {
     func addListDescription(description: String) {
         if !description.isEmpty {
-            savedLists = savedLists + [List(description: description)]
+            coreDataDatastore.addList(List(description: description))
+            savedLists = coreDataDatastore.lists()
         }
     }
     
     func addTodo(todo: Todo) {
-        savedTodos = savedTodos + [todo]
+        coreDataDatastore.addTodo(todo)
+        savedTodos = coreDataDatastore.todos()
     }
     
     func deleteTodo(todo: Todo?) {
         if let todo = todo {
-            savedTodos = savedTodos.filter({$0 != todo})
+            coreDataDatastore.deleteTodo(todo)
+            savedTodos = coreDataDatastore.todos()
         }
     }
     

@@ -111,25 +111,35 @@ extension ListsViewController : UITableViewDelegate {
 // MARK: Actions
 extension ListsViewController {
     func addListButtonPressed(sender: UIButton!){
-        let alertViewChangeName = UIAlertView(title: "Enter list name",
+        var alert = UIAlertController(title: "Enter list name",
             message: "To create a new list, please enter the name of the list",
-            delegate: self,
-            cancelButtonTitle: "Cancel",
-            otherButtonTitles: "OK")
-        alertViewChangeName.alertViewStyle = .PlainTextInput
-        alertViewChangeName.show()
+            preferredStyle: .Alert)
+        
+        let okAction = UIAlertAction(title: "OK",
+            style: .Default) { (action: UIAlertAction!) -> Void in
+                let textField = alert.textFields![0] as UITextField
+                self.addList(textField.text)
+        }
+        
+        let cancelAction = UIAlertAction(title: "Cancel",
+            style: .Default) { (action: UIAlertAction!) -> Void in
+        }
+        
+        alert.addTextFieldWithConfigurationHandler {
+            (textField: UITextField!) -> Void in
+        }
+        
+        alert.addAction(okAction)
+        alert.addAction(cancelAction)
+        
+        presentViewController(alert,
+            animated: true,
+            completion: nil)
+        
+    }
+    
+    private func addList(description: NSString) {
+        todosDatastore.addListDescription(description)
+        tableView.reloadData()
     }
 }
-
-// MARK: UIAlertViewDelegate
-extension ListsViewController: UIAlertViewDelegate {
-    func alertView(alertView: UIAlertView,
-        clickedButtonAtIndex buttonIndex: Int){
-            if buttonIndex == 1 {
-                let description = alertView.textFieldAtIndex(0)!.text
-                todosDatastore.addListDescription(description)
-                tableView.reloadData()
-            }
-    }
-}
-
