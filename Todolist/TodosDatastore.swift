@@ -70,6 +70,4 @@ extension TodosDatastore {
             doneDate: NSDate())
         addTodo(doneTodo)
     }
-    
-    
 }

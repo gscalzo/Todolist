@@ -53,14 +53,6 @@ private extension ListViewCell{
 
 // MARK: render
 extension ListViewCell{
-    private func checkmarkAttributedStringTodo(todo: Todo) -> NSAttributedString{
-        if todo.done {
-            return FAKFontAwesome.checkSquareOIconWithSize(20).attributedString()
-        } else {
-            return FAKFontAwesome.squareOIconWithSize(20).attributedString()
-        }
-    }
-    
     func render(list: List){
         title.text = list.description
     }

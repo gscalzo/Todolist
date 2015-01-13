@@ -25,8 +25,8 @@ class TodosViewController: UIViewController {
         self.todos = todosDatastore.todos()
         super.init(nibName: nil, bundle: nil)
     }
-
-    required init(coder aDecoder: NSCoder) {
+    
+    internal required init(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     

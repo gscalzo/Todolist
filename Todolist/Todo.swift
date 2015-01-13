@@ -17,5 +17,6 @@ struct Todo: Equatable {
 }
 
 func ==(todo1: Todo, todo2: Todo) -> Bool {
-    return todo1.description == todo2.description && todo1.dueDate == todo2.dueDate
+    return todo1.description == todo2.description
+        && todo1.dueDate == todo2.dueDate
 }
