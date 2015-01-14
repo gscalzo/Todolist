@@ -9,10 +9,27 @@
 import UIKit
 import Cartography
 import LatoFont
+import MGSwipeTableCell
 
 class TodosViewController: UIViewController {
     private let tableView = UITableView()
     private let addButton = UIButton()
+    private let todosDatastore: TodosDatastore
+    private var todos: Array<Todo>
+    
+    private override init() {
+        fatalError("init() must not called")
+    }
+    
+    required init(todosDatastore: TodosDatastore) {
+        self.todosDatastore = todosDatastore
+        self.todos = todosDatastore.todos()
+        super.init(nibName: nil, bundle: nil)
+    }
+    
+    internal required init(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,6 +38,18 @@ class TodosViewController: UIViewController {
         layoutView()
         style()
     }
+    
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        refresh()
+    }
+    
+    private func refresh() {
+        todos = todosDatastore.todos().sorted {
+            $0.dueDate.compare($1.dueDate) ==
+                NSComparisonResult.OrderedAscending}
+        tableView.reloadData()
+    }
 }
 
 // MARK: Setup
@@ -28,7 +57,7 @@ private extension TodosViewController{
     func setup(){
         title = "Todos"
         view.backgroundColor = UIColor.grayColor()
-        tableView.registerClass(UITableViewCell.classForCoder(), forCellReuseIdentifier: "Cell")
+        tableView.registerClass(TodoViewCell.classForCoder(), forCellReuseIdentifier: "Cell")
         tableView.dataSource = self
         tableView.delegate = self
         tableView.contentInset = UIEdgeInsets(top: 0, left: 0, bottom: 100, right: 0)
@@ -68,14 +97,35 @@ private extension TodosViewController{
 // MARK: UITableViewDataSource
 extension TodosViewController : UITableViewDataSource {
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 10
+        return todos.count
     }
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("Cell") as UITableViewCell
+        let cell = tableView.dequeueReusableCellWithIdentifier("Cell") as TodoViewCell
+        let todo = todos[indexPath.row]
+        cell.render(todo)
         cell.selectionStyle = .None
-        cell.textLabel?.font = UIFont.latoLightFontOfSize(14)
-        cell.textLabel?.text = "Todo number \(indexPath.row)"
-        
+        cell.rightButtons = [
+            MGSwipeButton(title: "Edit", backgroundColor: UIColor.sunflower(), padding: 30) {
+                [weak self] sender in
+                self?.editButtonPressed(todo)
+                return true
+            },
+            MGSwipeButton(title: "Delete", backgroundColor: UIColor.alizarin(), padding: 30) {
+                [weak self] sender in
+                self?.deleteButtonPressed(todo)
+                return true
+            }
+        ]
+        cell.rightExpansion.buttonIndex = 0
+
+        cell.leftButtons = [
+            MGSwipeButton(title: "Done", backgroundColor: UIColor.emerald(), padding: 30) {
+                [weak self] sender in
+                self?.doneButtonPressed(todo)
+                return true
+            }
+        ]
+        cell.leftExpansion.buttonIndex = 0
         return cell
     }
 }
@@ -95,5 +145,19 @@ extension TodosViewController : UITableViewDelegate {
 extension TodosViewController {
     func addTodoButtonPressed(sender: UIButton!){
         println("addTodoButtonPressed")
+    }
+    
+    func editButtonPressed(todo: Todo){
+        println("editButtonPressed")
+    }
+    
+    func deleteButtonPressed(todo: Todo){
+        todosDatastore.deleteTodo(todo)
+        refresh()
+    }
+    
+    func doneButtonPressed(todo: Todo){
+        todosDatastore.doneTodo(todo)
+        refresh()
     }
 }

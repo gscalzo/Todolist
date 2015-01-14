@@ -12,6 +12,11 @@
 		EEC2731C1A6480CF0097EE23 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEC2731A1A6480CF0097EE23 /* LaunchScreen.xib */; };
 		EEC273281A6480D00097EE23 /* TodolistTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC273271A6480D00097EE23 /* TodolistTests.swift */; };
 		EEC273331A64837B0097EE23 /* TodosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC273321A64837B0097EE23 /* TodosViewController.swift */; };
+		EEC273361A649F580097EE23 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC273351A649F580097EE23 /* Todo.swift */; };
+		EEC273381A649F610097EE23 /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC273371A649F610097EE23 /* List.swift */; };
+		EEC2733B1A649FDD0097EE23 /* TodosDatastore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC2733A1A649FDD0097EE23 /* TodosDatastore.swift */; };
+		EEC2733D1A64A55C0097EE23 /* TodoViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC2733C1A64A55C0097EE23 /* TodoViewCell.swift */; };
+		EEC2733F1A64ACB00097EE23 /* UIColor+Todolist.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC2733E1A64ACB00097EE23 /* UIColor+Todolist.swift */; };
 		F603FDCF428F7FA611E1B660 /* Pods_Todolist.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB48B60FE1E8487EFD1F046F /* Pods_Todolist.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
@@ -37,6 +42,11 @@
 		EEC273261A6480D00097EE23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EEC273271A6480D00097EE23 /* TodolistTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodolistTests.swift; sourceTree = "<group>"; };
 		EEC273321A64837B0097EE23 /* TodosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodosViewController.swift; sourceTree = "<group>"; };
+		EEC273351A649F580097EE23 /* Todo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
+		EEC273371A649F610097EE23 /* List.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = List.swift; sourceTree = "<group>"; };
+		EEC2733A1A649FDD0097EE23 /* TodosDatastore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodosDatastore.swift; sourceTree = "<group>"; };
+		EEC2733C1A64A55C0097EE23 /* TodoViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoViewCell.swift; sourceTree = "<group>"; };
+		EEC2733E1A64ACB00097EE23 /* UIColor+Todolist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Todolist.swift"; sourceTree = "<group>"; };
 		F00C6EB3EE61D47CABFE6B29 /* Pods-Todolist.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Todolist.release.xcconfig"; path = "Pods/Target Support Files/Pods-Todolist/Pods-Todolist.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -99,11 +109,14 @@
 		EEC2730E1A6480CF0097EE23 /* Todolist */ = {
 			isa = PBXGroup;
 			children = (
+				EEC273391A649FC80097EE23 /* Datastores */,
+				EEC273341A649EE20097EE23 /* Entities */,
 				EEC273311A64835D0097EE23 /* ViewControllers */,
 				EEC273111A6480CF0097EE23 /* AppDelegate.swift */,
 				EEC273181A6480CF0097EE23 /* Images.xcassets */,
 				EEC2731A1A6480CF0097EE23 /* LaunchScreen.xib */,
 				EEC2730F1A6480CF0097EE23 /* Supporting Files */,
+				EEC2733E1A64ACB00097EE23 /* UIColor+Todolist.swift */,
 			);
 			path = Todolist;
 			sourceTree = "<group>";
@@ -137,8 +150,26 @@
 			isa = PBXGroup;
 			children = (
 				EEC273321A64837B0097EE23 /* TodosViewController.swift */,
+				EEC2733C1A64A55C0097EE23 /* TodoViewCell.swift */,
 			);
 			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		EEC273341A649EE20097EE23 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				EEC273351A649F580097EE23 /* Todo.swift */,
+				EEC273371A649F610097EE23 /* List.swift */,
+			);
+			name = Entities;
+			sourceTree = "<group>";
+		};
+		EEC273391A649FC80097EE23 /* Datastores */ = {
+			isa = PBXGroup;
+			children = (
+				EEC2733A1A649FDD0097EE23 /* TodosDatastore.swift */,
+			);
+			name = Datastores;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,7 +322,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEC2733B1A649FDD0097EE23 /* TodosDatastore.swift in Sources */,
 				EEC273331A64837B0097EE23 /* TodosViewController.swift in Sources */,
+				EEC273381A649F610097EE23 /* List.swift in Sources */,
+				EEC273361A649F580097EE23 /* Todo.swift in Sources */,
+				EEC2733F1A64ACB00097EE23 /* UIColor+Todolist.swift in Sources */,
+				EEC2733D1A64A55C0097EE23 /* TodoViewCell.swift in Sources */,
 				EEC273121A6480CF0097EE23 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
