@@ -2,7 +2,7 @@
 //  TodosViewController.swift
 //  Todolist
 //
-//  Created by Giordano Scalzo on 05/01/2015.
+//  Created by Giordano Scalzo on 12/01/2015.
 //  Copyright (c) 2015 Effective Code Ltd. All rights reserved.
 //
 
@@ -13,42 +13,28 @@ import LatoFont
 class TodosViewController: UIViewController {
     private let tableView = UITableView()
     private let addButton = UIButton()
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         setup()
         layoutView()
         style()
-        // Do any additional setup after loading the view.
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
 
 // MARK: Setup
 private extension TodosViewController{
     func setup(){
+        title = "Todos"
         view.backgroundColor = UIColor.grayColor()
         tableView.registerClass(UITableViewCell.classForCoder(), forCellReuseIdentifier: "Cell")
         tableView.dataSource = self
+        tableView.delegate = self
+        tableView.contentInset = UIEdgeInsets(top: 0, left: 0, bottom: 100, right: 0)
         view.addSubview(tableView)
         
+        addButton.addTarget(self, action: "addTodoButtonPressed:", forControlEvents: .TouchUpInside)
         view.addSubview(addButton)
     }
 }
@@ -74,21 +60,40 @@ private extension TodosViewController{
 // MARK: Style
 private extension TodosViewController{
     func style(){
-        view.backgroundColor = UIColor.grayColor()
+        view.backgroundColor = UIColor.whiteColor()
         addButton.setImage(UIImage(named: "add-button"), forState: .Normal)
     }
 }
 
 // MARK: UITableViewDataSource
-extension TodosViewController : UITableViewDataSource{
+extension TodosViewController : UITableViewDataSource {
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 50
+        return 10
     }
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("Cell") as UITableViewCell
-        cell.textLabel!.text = "dasdasdad"
-        cell.textLabel!.font = UIFont.latoFontOfSize(17)
+        cell.selectionStyle = .None
+        cell.textLabel?.font = UIFont.latoLightFontOfSize(14)
+        cell.textLabel?.text = "Todo number \(indexPath.row)"
+        
         return cell
     }
+}
 
+// MARK: UITableViewDelegate
+extension TodosViewController : UITableViewDelegate {
+    func tableView(tableView: UITableView,
+        heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+            return 80
+    }
+    
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+    }
+}
+
+// MARK: Actions
+extension TodosViewController {
+    func addTodoButtonPressed(sender: UIButton!){
+        println("addTodoButtonPressed")
+    }
 }

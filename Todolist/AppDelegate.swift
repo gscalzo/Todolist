@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Todolist
 //
-//  Created by Giordano Scalzo on 02/01/2015.
+//  Created by Giordano Scalzo on 12/01/2015.
 //  Copyright (c) 2015 Effective Code Ltd. All rights reserved.
 //
 
@@ -16,14 +16,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
-
         let viewController = TodosViewController()
+        let navigatorViewController = UINavigationController(rootViewController: viewController)
+        
         let mainWindow = UIWindow(frame: UIScreen.mainScreen().bounds)
         mainWindow.backgroundColor = UIColor.whiteColor()
-        mainWindow.rootViewController = viewController
+        mainWindow.rootViewController = navigatorViewController
         mainWindow.makeKeyAndVisible()
         window = mainWindow
-        
         return true
     }
 
