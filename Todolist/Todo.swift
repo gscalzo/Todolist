@@ -20,3 +20,22 @@ func ==(todo1: Todo, todo2: Todo) -> Bool {
     return todo1.description == todo2.description
         && todo1.dueDate == todo2.dueDate
 }
+
+func todoFromDictionary(dict: Dictionary<String, AnyObject>) -> Todo {
+    return Todo(description: dict["description"] as String!,
+        list: List(description: dict["list"] as String!),
+        dueDate: dict["dueDate"] as NSDate!,
+        done: dict["done"] as Bool!,
+        doneDate: dict["doneDate"] as? NSDate)
+}
+
+func todoToDictionary(todo: Todo) -> Dictionary<String, AnyObject?> {
+    let dict: Dictionary<String, AnyObject?> = [
+        "description": todo.description,
+        "list": todo.list.description,
+        "dueDate": todo.dueDate,
+        "done": todo.done,
+        "doneDate": todo.doneDate
+        ]
+    return dict
+}

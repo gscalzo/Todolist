@@ -9,7 +9,7 @@
 import Foundation
 import CoreData
 
-class CoreDataDatastore {
+class CoreDataDatastore: StorageDatastore {
     func todos() -> Array<Todo>{
         if let managedObjectContext = managedObjectContext {
             let fetchRequest = NSFetchRequest(entityName:"Todo")

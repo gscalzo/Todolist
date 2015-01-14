@@ -11,12 +11,12 @@ import Foundation
 class TodosDatastore {
     private var savedLists = Array<List>()
     private var savedTodos = Array<Todo>()
-    private let coreDataDatastore: CoreDataDatastore
+    private let storageDatastore: StorageDatastore
     
-    init(coreDataDatastore: CoreDataDatastore){
-        self.coreDataDatastore = coreDataDatastore
-        savedLists = coreDataDatastore.lists()
-        savedTodos = coreDataDatastore.todos()
+    init(coreDataDatastore: StorageDatastore){
+        self.storageDatastore = coreDataDatastore
+        savedLists = storageDatastore.lists()
+        savedTodos = storageDatastore.todos()
     }
     
     func defaultList() -> List {
@@ -43,20 +43,20 @@ class TodosDatastore {
 extension TodosDatastore {
     func addListDescription(description: String) {
         if !description.isEmpty {
-            coreDataDatastore.addList(List(description: description))
-            savedLists = coreDataDatastore.lists()
+            storageDatastore.addList(List(description: description))
+            savedLists = storageDatastore.lists()
         }
     }
     
     func addTodo(todo: Todo) {
-        coreDataDatastore.addTodo(todo)
-        savedTodos = coreDataDatastore.todos()
+        storageDatastore.addTodo(todo)
+        savedTodos = storageDatastore.todos()
     }
     
     func deleteTodo(todo: Todo?) {
         if let todo = todo {
-            coreDataDatastore.deleteTodo(todo)
-            savedTodos = coreDataDatastore.todos()
+            storageDatastore.deleteTodo(todo)
+            savedTodos = storageDatastore.todos()
         }
     }
     
