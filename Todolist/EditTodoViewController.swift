@@ -34,6 +34,10 @@ class EditTodoViewController: UIViewController {
         fatalError("init() must not called")
     }
     
+    required init(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
     required init(todosDatastore: TodosDatastore, todoToEdit: Todo?) {
         self.todosDatastore = todosDatastore
         self.todoToEdit = todoToEdit
@@ -48,9 +52,7 @@ class EditTodoViewController: UIViewController {
         super.init(nibName: nil, bundle: nil)
     }
     
-    required init(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
