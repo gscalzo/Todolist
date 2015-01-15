@@ -11,50 +11,52 @@ import Foundation
 class TodosDatastore {
     private var savedLists = Array<List>()
     private var savedTodos = Array<Todo>()
-
-    init(){
-        savedLists = [
-            List(description: "Personal"),
-            List(description: "Work"),
-            List(description: "Family")
-        ]
-        savedTodos = [
-            Todo(description: "Remenber the Milk",
-                list: List(description: "Family") , dueDate: NSDate(),
-                done: false,
-                doneDate: nil),
-            Todo(description: "Buy Spider Man Comics",
-                list: List(description: "Personal") , dueDate: NSDate(),
-                done: true,
-                doneDate: NSDate()),
-            Todo(description: "Release build",
-                list: List(description: "Work") , dueDate: NSDate(),
-                done: false,
-                doneDate: nil),
-        ]
+    
+    func defaultList() -> List {
+        return List(description: "Personal")
     }
     
+    func defaultDueDate() -> NSDate {
+        let now = NSDate()
+        let secondsInADay = NSTimeInterval(24 * 60 * 60)
+        return now.dateByAddingTimeInterval(secondsInADay)
+    }
     
     func todos() -> Array<Todo> {
         return savedTodos
     }
     
     func lists() -> Array<List> {
-        return savedLists
+        return [defaultList()] + savedLists
     }
 }
 
 // MARK: Actions
 extension TodosDatastore {
+    func addListDescription(description: String) {
+        if !description.isEmpty {
+            savedLists = savedLists + [List(description: description)]
+        }
+    }
+    
     func addTodo(todo: Todo) {
-        println("addTodo")
+        savedTodos = savedTodos + [todo]
     }
     
     func deleteTodo(todo: Todo?) {
-        println("deleteTodo")
+        if let todo = todo {
+            savedTodos = savedTodos.filter({$0 != todo})
+        }
     }
-
+    
     func doneTodo(todo: Todo) {
-        println("doneTodo")
+        deleteTodo(todo)
+        let doneTodo = Todo(description: todo.description,
+            list: todo.list,
+            dueDate:
+            todo.dueDate,
+            done: true,
+            doneDate: NSDate())
+        addTodo(doneTodo)
     }
 }

@@ -144,11 +144,15 @@ extension TodosViewController : UITableViewDelegate {
 // MARK: Actions
 extension TodosViewController {
     func addTodoButtonPressed(sender: UIButton!){
-        println("addTodoButtonPressed")
+        let addTodoVC = EditTodoViewController(todosDatastore: todosDatastore, todoToEdit: nil)
+        addTodoVC.title = "New Todo"
+        navigationController!.pushViewController(addTodoVC, animated: true)
     }
     
     func editButtonPressed(todo: Todo){
-        println("editButtonPressed")
+        let editTodoVC = EditTodoViewController(todosDatastore: todosDatastore, todoToEdit: todo)
+        editTodoVC.title = "Edit Todo"
+        navigationController!.pushViewController(editTodoVC, animated: true)
     }
     
     func deleteButtonPressed(todo: Todo){

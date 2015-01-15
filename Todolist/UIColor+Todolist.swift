@@ -8,6 +8,10 @@
 
 import UIKit
 extension UIColor {
+    class func separatorColor() -> UIColor {
+        return UIColor.colorComponents((209, 209, 212))
+    }
+    
     class func greenSea() -> UIColor {
         return UIColor.colorComponents((22, 160, 133))
     }
