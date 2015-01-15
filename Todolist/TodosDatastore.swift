@@ -13,8 +13,8 @@ class TodosDatastore {
     private var savedTodos = Array<Todo>()
     private let storageDatastore: StorageDatastore
     
-    init(coreDataDatastore: StorageDatastore){
-        self.storageDatastore = coreDataDatastore
+    init(storageDatastore: StorageDatastore){
+        self.storageDatastore = storageDatastore
         savedLists = storageDatastore.lists()
         savedTodos = storageDatastore.todos()
     }

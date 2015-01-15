@@ -29,13 +29,13 @@ func todoFromDictionary(dict: Dictionary<String, AnyObject>) -> Todo {
         doneDate: dict["doneDate"] as? NSDate)
 }
 
-func todoToDictionary(todo: Todo) -> Dictionary<String, AnyObject?> {
-    let dict: Dictionary<String, AnyObject?> = [
+func todoToDictionary(todo: Todo) -> NSDictionary {
+    let dict: NSDictionary = [
         "description": todo.description,
         "list": todo.list.description,
         "dueDate": todo.dueDate,
         "done": todo.done,
-        "doneDate": todo.doneDate
+        "doneDate": todo.doneDate ?? ""
         ]
     return dict
 }

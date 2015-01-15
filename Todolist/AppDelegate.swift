@@ -27,7 +27,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         styleApp()
 
-        let viewController = TodosViewController(todosDatastore: TodosDatastore(coreDataDatastore: CoreDataDatastore()))
+        let viewController = TodosViewController(todosDatastore: TodosDatastore(storageDatastore: FileSystemDataStore()))
         let navigatorViewController = UINavigationController(rootViewController: viewController)
         
         let mainWindow = UIWindow(frame: UIScreen.mainScreen().bounds)
