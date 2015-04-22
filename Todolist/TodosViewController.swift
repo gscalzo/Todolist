@@ -71,7 +71,7 @@ extension TodosViewController : UITableViewDataSource {
         return 10
     }
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("Cell") as UITableViewCell
+        let cell = tableView.dequeueReusableCellWithIdentifier("Cell") as! UITableViewCell
         cell.selectionStyle = .None
         cell.textLabel?.font = UIFont.latoLightFontOfSize(14)
         cell.textLabel?.text = "Todo number \(indexPath.row)"
