@@ -53,7 +53,6 @@ class TodosViewController: UIViewController {
 private extension TodosViewController{
     func setup(){
         title = "Todos"
-        view.backgroundColor = UIColor.grayColor()
         tableView.registerClass(TodoViewCell.classForCoder(), forCellReuseIdentifier: "Cell")
         tableView.dataSource = self
         tableView.delegate = self
