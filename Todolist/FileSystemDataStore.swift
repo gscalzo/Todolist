@@ -72,7 +72,7 @@ class FileSystemDataStore: StorageDatastore {
     
     private func fileNameEntity(entityName: String) -> String{
         let paths = NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true) as NSArray
-        let documentsDirectory = paths.objectAtIndex(0) as NSString
+        let documentsDirectory = paths.objectAtIndex(0) as! NSString
         let path = documentsDirectory.stringByAppendingPathComponent("\(entityName).plist")
     
         return path

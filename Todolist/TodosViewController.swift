@@ -16,7 +16,7 @@ class TodosViewController: UIViewController {
     private let todosDatastore: TodosDatastore
     private var todos: Array<Todo>
     
-    private override init() {
+    private init() {
         fatalError("init() must not called")
     }
     
@@ -96,7 +96,7 @@ extension TodosViewController : UITableViewDataSource {
         return todos.count
     }
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("Cell") as TodoViewCell
+        let cell = tableView.dequeueReusableCellWithIdentifier("Cell") as! TodoViewCell
         let todo = todos[indexPath.row]
         cell.render(todo)
         cell.selectionStyle = .None

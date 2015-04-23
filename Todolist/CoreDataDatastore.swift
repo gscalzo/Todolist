@@ -17,15 +17,15 @@ class CoreDataDatastore: StorageDatastore {
             var error: NSError?
             let fetchedResults =
             managedObjectContext.executeFetchRequest(fetchRequest,
-                error: &error) as [NSManagedObject]?
+                error: &error) as! [NSManagedObject]?
             
             if let results = fetchedResults {
                 return results.map{
-                    Todo(description: $0.valueForKey("descriptionText") as String,
-                        list: List(description: $0.valueForKey("list") as String),
-                        dueDate: $0.valueForKey("dueDate") as NSDate,
-                        done: $0.valueForKey("done") as Bool,
-                        doneDate: $0.valueForKey("doneDate") as NSDate?)
+                    Todo(description: $0.valueForKey("descriptionText") as! String,
+                        list: List(description: $0.valueForKey("list") as! String),
+                        dueDate: $0.valueForKey("dueDate") as! NSDate,
+                        done: $0.valueForKey("done") as! Bool,
+                        doneDate: $0.valueForKey("doneDate") as! NSDate?)
                 }
             } else {
                 println("Could not fetch \(error), \(error!.userInfo)")
@@ -42,11 +42,11 @@ class CoreDataDatastore: StorageDatastore {
             var error: NSError?
             let fetchedResults =
             managedObjectContext.executeFetchRequest(fetchRequest,
-                error: &error) as [NSManagedObject]?
+                error: &error) as! [NSManagedObject]?
             
             if let results = fetchedResults {
                 return results.map{
-                    List(description: $0.valueForKey("descriptionText") as String)
+                    List(description: $0.valueForKey("descriptionText") as! String)
                 }
             } else {
                 println("Could not fetch \(error), \(error!.userInfo)")
@@ -61,7 +61,7 @@ class CoreDataDatastore: StorageDatastore {
         // The directory the application uses to store the Core Data store file. This code uses a directory named "uk.co.effectivecode.TemplateForCoreData" in the application's documents Application Support directory.
         let urls = NSFileManager.defaultManager().URLsForDirectory(.DocumentDirectory,
             inDomains: .UserDomainMask)
-        return urls[urls.count-1] as NSURL
+        return urls[urls.count-1] as! NSURL
         }()
     
     private lazy var managedObjectModel: NSManagedObjectModel = {
@@ -93,7 +93,7 @@ class CoreDataDatastore: StorageDatastore {
                 dict[NSLocalizedDescriptionKey] = "Failed to initialize the application's saved data"
                 dict[NSLocalizedFailureReasonErrorKey] = failureReason
                 dict[NSUnderlyingErrorKey] = error
-                error = NSError(domain: "YOUR_ERROR_DOMAIN", code: 9999, userInfo: dict)
+                error = NSError(domain: "YOUR_ERROR_DOMAIN", code: 9999, userInfo: dict as [NSObject : AnyObject])
                 // Replace this with code to handle the error appropriately.
                 // abort() causes the application to generate a crash log and terminate.
                 // You should not use this function in a shipping application,
@@ -172,7 +172,7 @@ extension CoreDataDatastore {
             var error: NSError?
             let fetchedResults =
             managedObjectContext.executeFetchRequest(fetchRequest,
-                error: &error) as [NSManagedObject]?
+                error: &error) as! [NSManagedObject]?
             for mo in fetchedResults! {
                managedObjectContext.deleteObject(mo)
             }

@@ -30,7 +30,7 @@ class EditTodoViewController: UIViewController {
     private var list: List
     private var dueDate: NSDate
     
-    private override init() {
+    private init() {
         fatalError("init() must not called")
     }
     

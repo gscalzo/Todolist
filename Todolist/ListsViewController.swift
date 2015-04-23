@@ -16,7 +16,7 @@ class ListsViewController: UIViewController {
     private let todosDatastore: TodosDatastore
     private let onListSelected: (list: List) -> Void
     
-    private override init() {
+    private init() {
         fatalError("init() must not called")
     }
     
@@ -86,7 +86,7 @@ extension ListsViewController : UITableViewDataSource {
         return todosDatastore.lists().count
     }
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("Cell") as ListViewCell
+        let cell = tableView.dequeueReusableCellWithIdentifier("Cell") as! ListViewCell
         let list = todosDatastore.lists()[indexPath.row]
         cell.render(list)
         cell.selectionStyle = .None
@@ -117,7 +117,7 @@ extension ListsViewController {
         
         let okAction = UIAlertAction(title: "OK",
             style: .Default) { (action: UIAlertAction!) -> Void in
-                let textField = alert.textFields![0] as UITextField
+                let textField = alert.textFields![0] as! UITextField
                 self.addList(textField.text)
         }
         
@@ -139,7 +139,7 @@ extension ListsViewController {
     }
     
     private func addList(description: NSString) {
-        todosDatastore.addListDescription(description)
+        todosDatastore.addListDescription(description as String)
         tableView.reloadData()
     }
 }

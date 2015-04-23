@@ -13,7 +13,7 @@ struct List {
 }
 
 func listFromDictionary(dict: Dictionary<String, AnyObject>) -> List {
-    return List(description: dict["description"] as String!)
+    return List(description: dict["description"] as! String!)
 }
 
 func listToDictionary(list: List) -> NSDictionary {

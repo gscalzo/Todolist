@@ -12,7 +12,7 @@ struct Todo: Equatable {
     let description: String
     let list: List
     let dueDate: NSDate
-    let done: Bool = false
+    let done: Bool
     let doneDate: NSDate?
 }
 
@@ -22,10 +22,10 @@ func ==(todo1: Todo, todo2: Todo) -> Bool {
 }
 
 func todoFromDictionary(dict: Dictionary<String, AnyObject>) -> Todo {
-    return Todo(description: dict["description"] as String!,
-        list: List(description: dict["list"] as String!),
-        dueDate: dict["dueDate"] as NSDate!,
-        done: dict["done"] as Bool!,
+    return Todo(description: dict["description"] as! String!,
+        list: List(description: dict["list"] as! String!),
+        dueDate: dict["dueDate"] as! NSDate!,
+        done: dict["done"] as! Bool!,
         doneDate: dict["doneDate"] as? NSDate)
 }
 
